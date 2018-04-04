@@ -1,0 +1,23 @@
+Must have features:
+  - Search for foods by name
+  - Display food legality
+  - Change language
+
+  Extra features:
+  - Display food details as text
+  - Change food list by diet
+  - search for foods by category
+
+
+  Similar services:
+  - Google
+  - DuckDuckGo
+  - Fineli
+  - Sulamo
+  - MyfitnessPal
+  - NutritionData
+  - Yahoo
+  - Bing
+  - AllICanEat
+  - Monash University Fodmap App
+  - Fast Tract Diet
