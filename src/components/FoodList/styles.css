@@ -1,0 +1,36 @@
+.search-container {
+  max-width: 830px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.item-row {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.item-row p {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search-bar {
+  border-radius: 5px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+}
+
+.icon-row {
+  width: 20px;
+  height: 20px;
+  color: green;
+}
