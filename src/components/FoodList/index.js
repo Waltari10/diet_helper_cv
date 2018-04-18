@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import style from './styles.css'
 import legalIcon from './ok-icon.png'
 import illegalIcon from './cross-icon.png'
+import localization from '../../Localization.js'
 
 class FoodList extends Component {
   state = {
@@ -79,7 +80,7 @@ class FoodList extends Component {
         }
         className="search-bar"
         type="text" 
-        placeholder="Hae.."
+        placeholder={localization.search}
       />
     )
   }

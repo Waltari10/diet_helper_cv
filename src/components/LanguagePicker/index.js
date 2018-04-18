@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import './styles.css';
-import finFlag from './finnish-flag.png'
-import ukFlag from './uk-flag.png'
+import React, { Component } from 'react'
+import './styles.css'
 import AngleDown from 'react-icons/lib/fa/angle-down';
 import AngleUp from 'react-icons/lib/fa/angle-up';
 import Flag from 'react-world-flags'
+import localization from '../../Localization.js'
 
 export default class LanguagePicker extends Component {
   state = {
@@ -12,6 +11,8 @@ export default class LanguagePicker extends Component {
     countryCode: 'FI'
   }
   selectLanguage = (code) => {
+    localization.setLanguage(code)
+    this.props.forceUpdate()
     this.setState({
       countryCode: code,
       isOpen: false
@@ -56,7 +57,7 @@ export default class LanguagePicker extends Component {
         {this.state.isOpen && this.renderDropDown()}
         {this.state.isOpen ? 
           <AngleUp
-            onClick = {
+            onClick={
               this.onClick
             }
             size={20}

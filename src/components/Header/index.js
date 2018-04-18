@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import style from './styles.css'
+import localization from '../../Localization.js'
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
       <div className="header-image" alt="blueberries">
-        <h1 className="site-title" >SCD Ruokavalio</h1>
+        <h1 className="site-title">{localization.SCD_diet}</h1>
       </div>
     );
   }
 }
-
-export default Header;
