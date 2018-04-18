@@ -8,7 +8,8 @@ import localization from '../../Localization.js'
 
 class FoodList extends Component {
   state = {
-    foods: []
+    foods: [],
+    locale: localization.getLanguage()
   }
   foodData = []
   constructor(props) {
@@ -18,6 +19,29 @@ class FoodList extends Component {
     .then(csv => {
       this.foodData = this.parseCSV(csv)
     })
+  }
+  // TODO this is risky...
+  componentWillUpdate () {
+    if (this.state.locale !== localization.getLanguage()) {
+
+      let foods = []
+      if (this.state.searchValue) {
+        foods = this.foodData.filter(food => {
+          let foodLocal = food.ruoka.trim().toLowerCase()
+
+          if (localization.getLanguage() === 'GB') {
+            foodLocal = food.food.trim().toLowerCase()
+          }
+
+          return foodLocal.includes(this.state.searchValue)
+        }
+        )
+      }
+      this.setState({
+        foods,
+        locale: localization.getLanguage()
+      })
+    }
   }
   parseCSV(csv) {
     const csvRows = csv.split('\n')
@@ -44,23 +68,32 @@ class FoodList extends Component {
   }
   onChange(event) {
     const value = event.target.value.toLowerCase().trim()
+
     let foods = []
     if (value) {
-      foods = this.foodData.filter(food => food.food.trim().toLowerCase().includes(value))
+      foods = this.foodData.filter(food => {
+        let foodLocal = food.ruoka.trim().toLowerCase()
+
+        if (localization.getLanguage() === 'GB') {
+          foodLocal = food.food.trim().toLowerCase()
+        }
+
+        return foodLocal.includes(value)}
+      )
     }
     this.setState({
-      foods
+      foods,
+      searchValue: value
     })
   }
   renderFoodItem(food) {
-
     return (
       <div
         className="item-row"
         key={food.food}
       >
         <p>
-          {food.food}
+          {localization.getLanguage() === 'GB' ? food.food : food.ruoka}
         </p>
         <img 
           className='icon-row'
