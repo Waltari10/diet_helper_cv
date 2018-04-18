@@ -79,7 +79,7 @@ class FoodList extends Component {
         }
         className="search-bar"
         type="text" 
-        placeholder="Search.."
+        placeholder="Hae.."
       />
     )
   }
