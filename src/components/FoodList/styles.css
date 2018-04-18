@@ -5,6 +5,10 @@
   margin: 0 auto;
 }
 
+input[type=text] {
+  padding-left: 15px;
+}
+
 .item-row {
   background-color: white;
   border-radius: 5px;

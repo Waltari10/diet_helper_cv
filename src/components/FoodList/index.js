@@ -7,18 +7,15 @@ import illegalIcon from './cross-icon.png'
 
 class FoodList extends Component {
   state = {
-    foodData: []
+    foods: []
   }
+  foodData = []
   constructor(props) {
     super(props)
     fetch('./food_data.csv')
     .then(response => response.text())
     .then(csv => {
-      var foodData = this.parseCSV(csv)
-      this.setState({
-        foodData,
-      })
-
+      this.foodData = this.parseCSV(csv)
     })
   }
   parseCSV(csv) {
@@ -42,13 +39,17 @@ class FoodList extends Component {
 
     objArray.shift()
 
-
     return objArray
   }
-  renderFoodItem(food) {
+  onChange(event) {
 
-    console.log(food.legal)
-    console.log(food.legal.trim().toLowerCase() === 'legal')
+    const value = event.target.value.toLowerCase()
+
+    this.setState({
+      foods: this.foodData.filter(food => food.food.toLowerCase().includes(value))
+    })
+  }
+  renderFoodItem(food) {
 
     return (
       <div
@@ -66,11 +67,14 @@ class FoodList extends Component {
     )
   }
   renderFoodList() {
-    return this.state.foodData.map(this.renderFoodItem)
+    return this.state.foods.map(this.renderFoodItem)
   }
   renderSearchBar() {
     return (
-      <input 
+      <input
+        onChange = {
+          this.onChange.bind(this)
+        }
         className="search-bar"
         type="text" 
         placeholder="Search.."
