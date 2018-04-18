@@ -42,11 +42,13 @@ class FoodList extends Component {
     return objArray
   }
   onChange(event) {
-
-    const value = event.target.value.toLowerCase()
-
+    const value = event.target.value.toLowerCase().trim()
+    let foods = []
+    if (value) {
+      foods = this.foodData.filter(food => food.food.trim().toLowerCase().includes(value))
+    }
     this.setState({
-      foods: this.foodData.filter(food => food.food.toLowerCase().includes(value))
+      foods
     })
   }
   renderFoodItem(food) {
