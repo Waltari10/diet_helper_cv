@@ -4,9 +4,7 @@
   "private": true,
   "dependencies": {
     "babel-preset-react": "^6.24.1",
-    "babelify": "^8.0.0",
     "react": "^16.3.1",
-    "react-country-flag": "^0.2.0",
     "react-dom": "^16.3.1",
     "react-icons": "^2.2.7",
     "react-localization": "^1.0.8",
@@ -15,9 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "browserify": "browserify -t [ babelify --presets [ react ] ] src/index.js -g browserify-css -o build/app.js"
   },
   "browserify": {
     "transform": [
@@ -32,6 +28,8 @@
     ]
   },
   "devDependencies": {
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.0",
     "browserify-css": "^0.14.0"
   }
 }
