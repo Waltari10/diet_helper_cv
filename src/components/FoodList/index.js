@@ -1,24 +1,27 @@
 'use strict'
 
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import IllegalIcon from 'react-icons/lib/fa/times-circle'
+import LegalIcon from 'react-icons/lib/fa/check'
+
 import style from './styles.css'
-import legalIcon from './ok-icon.png'
-import illegalIcon from './cross-icon.png'
 import localization from '../../Localization.js'
 
 class FoodList extends Component {
-  state = {
-    foods: [],
-    locale: localization.getLanguage()
-  }
-  foodData = []
   constructor(props) {
     super(props)
+
+    this.state = {
+      foods: [],
+      locale: localization.getLanguage()
+    }
+    this.foodData = []
+
     fetch('./food_data.csv')
-    .then(response => response.text())
-    .then(csv => {
-      this.foodData = this.parseCSV(csv)
-    })
+      .then(response => response.text())
+      .then(csv => {
+        this.foodData = this.parseCSV(csv)
+      })
   }
   // TODO this is risky...
   componentWillUpdate () {
@@ -95,10 +98,17 @@ class FoodList extends Component {
         <p>
           {localization.getLanguage() === 'GB' ? food.food : food.ruoka}
         </p>
-        <img 
-          className='icon-row'
-          src={food.legal.toLowerCase().trim() === 'legal' ? legalIcon : illegalIcon}
-        />
+
+        { food.legal.toLowerCase().trim() === 'legal' ?
+          <LegalIcon
+            color="#7FB222"
+            className='icon-row'
+          /> : 
+          <IllegalIcon
+            color="#AB4A4A"
+            className='icon-row'
+          />
+        }
       </div>
     )
   }
