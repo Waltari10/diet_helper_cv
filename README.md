@@ -3,6 +3,7 @@ How to release:
 - Move build/app.js to gh-pages branch.
 
 TODO:
+- Spinash is missing from foods
 - Make it easier to make changes to foods
 - Add contact form
 - Add google analytics
