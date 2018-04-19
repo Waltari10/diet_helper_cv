@@ -15,3 +15,4 @@ TODO:
 - Change food list by diet 
 - Display food details as text
 - Add eslint and rules
+- Promote yourself somehow. Add Linkedin profile?
