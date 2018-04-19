@@ -6,6 +6,7 @@ import LegalIcon from 'react-icons/lib/fa/check'
 
 import style from './styles.css'
 import localization from '../../Localization.js'
+import csv from './foodData.js'
 
 class FoodList extends Component {
   constructor(props) {
@@ -15,13 +16,7 @@ class FoodList extends Component {
       foods: [],
       locale: localization.getLanguage()
     }
-    this.foodData = []
-
-    fetch('./food_data.csv')
-      .then(response => response.text())
-      .then(csv => {
-        this.foodData = this.parseCSV(csv)
-      })
+    this.foodData = this.parseCSV(csv)
   }
   // TODO this is risky...
   componentWillUpdate () {

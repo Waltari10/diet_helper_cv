@@ -1,0 +1,48 @@
+.language-picker {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: #E2E2E8;
+  border-radius: 5px;
+  height: 30px;
+  width: 75px;
+}
+
+.flag {
+  position: absolute;
+  font-size: 25px;
+  right: 10px;
+  top: 7.5px;
+}
+
+.language-row p {
+  font-size: 13px;
+}
+
+.language-row .flag {
+  top: 0px;
+}
+
+.language-picker .angle {
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  background-color: 'red';
+}
+
+.language-row {
+  height: 30px;
+  position: relative;
+}
+
+.country-code {
+  padding-left: 10px;
+}
+
+.language-picker-drop-down {
+  background-color: #E2E2E8;
+  width: 75px;
+  position: absolute;
+  border-radius: 5px;
+  top: 31px;
+}
