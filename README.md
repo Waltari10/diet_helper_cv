@@ -3,6 +3,9 @@ How to release:
 - Move build/app.js to gh-pages branch.
 
 TODO:
+- Utilize fuzzy search for matching food items
+  - https://en.wikipedia.org/wiki/Levenshtein_distance
+  - https://github.com/jeancroy/FuzzySearch
 - Spinash is missing from foods
 - Make it easier to make changes to foods
 - Add contact form
