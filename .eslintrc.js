@@ -31,6 +31,8 @@ module.exports = {
     "react/jsx-curly-spacing": 2,
     "react/jsx-indent-props": [2, 2],
     "eqeqeq": ["error", "smart"],
-    "react/prefer-stateless-function": 0
+    "react/prefer-stateless-function": 0,
+    "class-methods-use-this": 0,
+    "no-plusplus": 0
   }
 }

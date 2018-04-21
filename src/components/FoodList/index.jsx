@@ -10,6 +10,8 @@ export default class FoodList extends Component {
   constructor(props) {
     super(props)
 
+    this.onChange = this.onChange.bind(this)
+
     this.state = {
       foods: [],
       locale: localization.getLanguage(),
@@ -18,46 +20,25 @@ export default class FoodList extends Component {
   }
   // TODO this is risky...
   componentWillUpdate() {
-    if (this.state.locale !== localization.getLanguage()) {
-      let foods = []
-      if (this.state.searchValue) {
-        foods = this.foodData.filter((food) => {
-          let foodLocal = food.ruoka.trim().toLowerCase()
+    if (this.state.locale !== localization.getLanguage()) return
 
-          if (localization.getLanguage() === 'GB') {
-            foodLocal = food.food.trim().toLowerCase()
-          }
+    let foods = []
+    if (this.state.searchValue) {
+      foods = this.foodData.filter((food) => {
+        let foodLocal = food.ruoka.trim().toLowerCase()
 
-          return foodLocal.includes(this.state.searchValue)
-        })
-      }
-      this.setState({
-        foods,
-        locale: localization.getLanguage(),
+        if (localization.getLanguage() === 'GB') {
+          foodLocal = food.food.trim().toLowerCase()
+        }
+
+        return foodLocal.includes(this.state.searchValue)
       })
     }
-  }
-  parseCSV(csv) {
-    const csvRows = csv.split('\n')
-    const keys = csvRows[0].split(',').map(k => k.trim())
 
-    const objArray = csvRows.map((rowText, i) => {
-      // Filter out key row
-      if (i === 0) return undefined
-
-      const row = rowText.split(',')
-      const obj = {}
-
-      for (let i = 0; i < keys.length; i++) {
-        obj[keys[i]] = row[i]
-      }
-
-      return obj
+    this.setState({
+      foods,
+      locale: localization.getLanguage(),
     })
-
-    objArray.shift()
-
-    return objArray
   }
   onChange(event) {
     const value = event.target.value.toLowerCase().trim()
@@ -78,6 +59,28 @@ export default class FoodList extends Component {
       foods,
       searchValue: value,
     })
+  }
+  parseCSV(csvString) {
+    const csvRows = csvString.split('\n')
+    const keys = csvRows[0].split(',').map(k => k.trim())
+
+    const objArray = csvRows.map((rowText, i) => {
+      // Filter out key row
+      if (i === 0) return undefined
+
+      const row = rowText.split(',')
+      const obj = {}
+
+      for (let k = 0; k < keys.length; k++) {
+        obj[keys[k]] = row[k]
+      }
+
+      return obj
+    })
+
+    objArray.shift()
+
+    return objArray
   }
   renderFoodItem(food) {
     return (
@@ -108,9 +111,7 @@ export default class FoodList extends Component {
   renderSearchBar() {
     return (
       <input
-        onChange={
-          this.onChange.bind(this)
-        }
+        onChange={this.onChange}
         className="search-bar"
         type="text"
         placeholder={localization.search}
