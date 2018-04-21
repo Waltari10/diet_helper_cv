@@ -1,30 +1,27 @@
-'use strict'
-
 import React, { Component } from 'react'
 import IllegalIcon from 'react-icons/lib/fa/times-circle'
 import LegalIcon from 'react-icons/lib/fa/check'
 
-import style from './styles.css'
-import localization from '../../Localization.js'
-import csv from './foodData.js'
+import './styles.css'
+import localization from '../../Localization'
+import csv from './foodData'
 
-class FoodList extends Component {
+export default class FoodList extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
       foods: [],
-      locale: localization.getLanguage()
+      locale: localization.getLanguage(),
     }
     this.foodData = this.parseCSV(csv)
   }
   // TODO this is risky...
-  componentWillUpdate () {
+  componentWillUpdate() {
     if (this.state.locale !== localization.getLanguage()) {
-
       let foods = []
       if (this.state.searchValue) {
-        foods = this.foodData.filter(food => {
+        foods = this.foodData.filter((food) => {
           let foodLocal = food.ruoka.trim().toLowerCase()
 
           if (localization.getLanguage() === 'GB') {
@@ -32,21 +29,19 @@ class FoodList extends Component {
           }
 
           return foodLocal.includes(this.state.searchValue)
-        }
-        )
+        })
       }
       this.setState({
         foods,
-        locale: localization.getLanguage()
+        locale: localization.getLanguage(),
       })
     }
   }
   parseCSV(csv) {
     const csvRows = csv.split('\n')
-    let keys = csvRows[0].split(",").map(k => k.trim())
+    const keys = csvRows[0].split(',').map(k => k.trim())
 
-    let objArray = csvRows.map((rowText, i) => {
-
+    const objArray = csvRows.map((rowText, i) => {
       // Filter out key row
       if (i === 0) return undefined
 
@@ -69,19 +64,19 @@ class FoodList extends Component {
 
     let foods = []
     if (value) {
-      foods = this.foodData.filter(food => {
+      foods = this.foodData.filter((food) => {
         let foodLocal = food.ruoka.trim().toLowerCase()
 
         if (localization.getLanguage() === 'GB') {
           foodLocal = food.food.trim().toLowerCase()
         }
 
-        return foodLocal.includes(value)}
-      )
+        return foodLocal.includes(value)
+      })
     }
     this.setState({
       foods,
-      searchValue: value
+      searchValue: value,
     })
   }
   renderFoodItem(food) {
@@ -97,11 +92,11 @@ class FoodList extends Component {
         { food.legal.toLowerCase().trim() === 'legal' ?
           <LegalIcon
             color="#7FB222"
-            className='icon-row'
-          /> : 
+            className="icon-row"
+          /> :
           <IllegalIcon
             color="#AB4A4A"
-            className='icon-row'
+            className="icon-row"
           />
         }
       </div>
@@ -113,11 +108,11 @@ class FoodList extends Component {
   renderSearchBar() {
     return (
       <input
-        onChange = {
+        onChange={
           this.onChange.bind(this)
         }
         className="search-bar"
-        type="text" 
+        type="text"
         placeholder={localization.search}
       />
     )
@@ -130,8 +125,6 @@ class FoodList extends Component {
         {this.renderSearchBar()}
         {this.renderFoodList()}
       </div>
-    );
+    )
   }
 }
-
-export default FoodList;

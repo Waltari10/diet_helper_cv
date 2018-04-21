@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import style from './styles.css'
+import React, { Component } from 'react'
+import './styles.css'
 
 class Footer extends Component {
   render() {
@@ -7,8 +7,8 @@ class Footer extends Component {
       <div className="footer-root">
         <p className="footer-text" >Copyright © Valtteri Laine 2018</p>
       </div>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer

@@ -20,3 +20,5 @@ TODO:
 - Display food details as text
 - Add eslint and rules
 - Promote yourself somehow. Add Linkedin profile?
+- S category foods are missing completely 
+- Check if any other categories are missing

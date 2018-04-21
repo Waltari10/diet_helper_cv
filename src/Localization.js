@@ -1,12 +1,12 @@
-import LocalizedStrings from 'react-localization';
+import LocalizedStrings from 'react-localization'
 
 const strings = new LocalizedStrings({
   FI: {
-    search: "Hae...",
+    search: 'Hae...',
     SCD_diet: 'SCD Ruokavalio',
   },
   GB: {
-    search: "Search...",
+    search: 'Search...',
     SCD_diet: 'SCD Diet',
   },
 })
