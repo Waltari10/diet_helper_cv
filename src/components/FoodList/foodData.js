@@ -1,7 +1,7 @@
 export default `food,ruoka,legal
 Acorn Squash,Acorn Squash,Legal
 Agar-agar,Agar-agar,Illegal
-Agave syrup,agave siirappi,Illegal
+Agave syrup,agavesiirappi,Illegal
 Algae,levät,Illegal
 Allspice,Maustepippuri,Legal
 Almond butter,Mantelivoi,Legal
@@ -46,7 +46,7 @@ Berries,marjat,Legal
 Bhindi,Okra,Illegal
 Bitter Gourd,karvaskurkku,Illegal
 Black beans,musta papu,Legal
-Black eye beans,"lehmänpapu, pitkäpapu",Illegal
+Black eye beans,lehmänpapu / pitkäpapu,Illegal
 Black radish,Retikka,Legal
 Blue cheese,Sinihomejuusto,Legal
 Bok Choy,pinaattikiinankaali,Legal
@@ -110,7 +110,7 @@ Coffee,kahvi,Legal
 Coffee (instant),Kahvi (instant),Illegal
 Colby cheese,Colby juusto,Legal
 Collard greens,Collard kasviksia,Legal
-Cordials,"Liköörit, mehutiivisteet",Illegal
+Cordials,Liköörit / mehutiivisteet,Illegal
 Corn,Maissi,Illegal
 Corn oil,Maissiöljy,Legal
 Corn syrup,Maissi siirappi,Illegal
@@ -223,7 +223,7 @@ Lettuce,Lehtisalaatti,Legal
 leucine,leusiini,Legal
 Licorice,Lakritsi,Illegal
 Lignin,ligniini,Illegal
-Lima beans,"Limanpapu, voipapu",Legal
+Lima beans,Limanpapu / voipapu,Legal
 Limburger cheese,Limburger juusto,Legal
 Limes,limetti,Legal
 Liqueurs,liköörit,Illegal
@@ -256,8 +256,8 @@ Molo-cure,Molo-cure,Illegal
 Monterey Jack cheese,Monterey Jack juusto,Legal
 Mozzarella cheese,Mozzarella juusto,Illegal
 MSG,MSG,Illegal
-Mucilaginous Herbs,mucilaginous Yrtit,Illegal
-Mucilaginous Polysaccharides,mucilaginous Polysakkaridi,Illegal
+Mucilaginous Herbs,geeliytyvät Yrtit,Illegal
+Mucilaginous Polysaccharides,Geeliytyvä Polysakkaridi,Illegal
 Muenster cheese,Muenster juusto,Legal
 Mungbeans,Mungopavut,Illegal
 Mushrooms,sienet,Legal
@@ -364,7 +364,62 @@ Turbinado,täysruokosokeri,Illegal
 Turnips,nauris,Illegal
 V8 Juice,V8 mehu,Illegal
 Vanillin,vanilliini,Legal
-Vegetable stearate,"rasvahappojen suolat, magnesiumstearaatti",Legal
+Vegetable stearate,rasvahappojen suolat / magnesiumstearaatti,Legal
 Vegetables (canned),Kasvikset (purkitettu),Illegal
 Vinegar,Etikka,Legal
-Vodka,Vodka,Legal`
+Vodka,Vodka,Legal
+Saccharin,sakariini,Legal
+Safflower oil,Safloriöljy,Legal
+Sage,Salvia,Legal
+Sago starch,saago,Illegal
+Sake,Sake,Illegal
+Salt,Suola,Legal
+Sashimi,sashimi,Legal
+saukerkraut,hapankaali,Legal
+Seaweed,merilevä,Illegal
+Seed Butters,siemen voit,Illegal
+Seed Flour,siemenjauhot,Illegal
+Seeds,Siemenet,Legal
+Sesame oil,seesamiöljy,Legal
+Sesame seeds,seesaminsiemen,Illegal
+Sharifa,annoona,Legal
+Shellfish,äyriäinen,Legal
+Sherry,Sherry,Illegal
+Silica / Silicon Dioxide,Piidioksidi,Legal
+Slippery elm,liukas jalava,Illegal
+Smoked meats,Savustettu liha,Illegal
+Sodium Benzoate,Natriumbentsoaatti,Legal
+Sodium starch glycinate,Natriumtärkkelysglykolaatti glysinaatti,Illegal
+Sorbitol,sorbitoli,Illegal
+Sour cream,hapankerma,Illegal
+Soy,Soija,Illegal
+Soy Lecithin,Soijalesitiini,Legal
+Soy Sauce,Soijakastike,Illegal
+Soybean milk,soijamaito,Illegal
+Soybean oil,soijapapuöljy,Illegal
+Soybeans,soijapapu,Illegal
+Spearmint Tea,viherminttu tee,Legal
+Spelt,speltti,Illegal
+Spices,Mausteet,Legal
+Spinach,Pinaatti,Legal
+Spirulina,spirulina,Illegal
+Splenda,Splenda,Illegal
+Split peas,herne,Legal
+Sprouted Grain Bread,Idätetty jyvä leipä,Illegal
+Squash,kurpitsa,Legal
+Stevia,Stevia,Illegal
+Stilton cheese,stilton juusto,Legal
+String beans,vihreä papu,Legal
+Sucralose,sukraloosi,Illegal
+Sulphites,sulfiitti,Legal
+Sunflower oil,Auringonkukka öljy,Legal
+Swede,Lanttu,Legal
+Sweet Potatoes,bataatti,Illegal
+Swiss cheese,Sveitsiläiset juustot,Legal
+Xantham Gum,ksantaanikumi,Illegal
+xylitol,ksylitoli,Illegal
+Zucchini,Kesäkurpitsa / ,Legal
+Yams,jamssi,Illegal
+Yoghurt (commercial),Jogurtti(kaupan),Illegal
+Yoghurt (homemade),Jogurtti(kotitekoinen),Legal
+Yucca Root,Jukka juuri,Illegal`

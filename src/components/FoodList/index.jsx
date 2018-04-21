@@ -20,7 +20,7 @@ export default class FoodList extends Component {
   }
   // TODO this is risky...
   componentWillUpdate() {
-    if (this.state.locale !== localization.getLanguage()) return
+    if (this.state.locale === localization.getLanguage()) return
 
     let foods = []
     if (this.state.searchValue) {
