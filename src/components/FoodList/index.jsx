@@ -6,6 +6,10 @@ import './styles.css'
 import localization from '../../Localization'
 import csv from './foodData'
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1)
+}
+
 export default class FoodList extends Component {
   constructor(props) {
     super(props)
@@ -65,19 +69,20 @@ export default class FoodList extends Component {
     const keys = csvRows[0].split(',').map(k => k.trim())
 
     const objArray = csvRows.map((rowText, i) => {
-      // Filter out key row
+      // set key row undefined
       if (i === 0) return undefined
 
       const row = rowText.split(',')
       const obj = {}
 
       for (let k = 0; k < keys.length; k++) {
-        obj[keys[k]] = row[k]
+        obj[keys[k]] = capitalizeFirstLetter(row[k])
       }
 
       return obj
     })
 
+    // remove undefined
     objArray.shift()
 
     return objArray
