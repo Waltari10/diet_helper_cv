@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
 import IllegalIcon from 'react-icons/lib/fa/times-circle'
 import LegalIcon from 'react-icons/lib/fa/check'
+import { getEditDistance, capitalizeFirstLetter, getWordPercentageMatch } from '../../helpers'
 
 import './styles.css'
 import localization from '../../Localization'
 import csv from './foodData'
-
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1)
-}
 
 export default class FoodList extends Component {
   constructor(props) {
@@ -26,42 +23,34 @@ export default class FoodList extends Component {
   componentWillUpdate() {
     if (this.state.locale === localization.getLanguage()) return
 
-    let foods = []
-    if (this.state.searchValue) {
-      foods = this.foodData.filter((food) => {
-        let foodLocal = food.ruoka.trim().toLowerCase()
-
-        if (localization.getLanguage() === 'GB') {
-          foodLocal = food.food.trim().toLowerCase()
-        }
-
-        return foodLocal.includes(this.state.searchValue)
-      })
-    }
-
     this.setState({
-      foods,
+      foods: this.getVisibleFoods(this.state.searchValue),
       locale: localization.getLanguage(),
     })
   }
+  getVisibleFoods(searchValue) {
+    if (!searchValue) return []
+
+    const foods = this.foodData.sort((a, b) => {
+      const aFood = localization.getLanguage() === 'GB' ? a.food : a.ruoka
+      const bFood = localization.getLanguage() === 'GB' ? b.food : b.ruoka
+
+      const aMatch = getWordPercentageMatch(aFood.toLowerCase(), searchValue.toLowerCase())
+      const bMatch = getWordPercentageMatch(bFood.toLowerCase(), searchValue.toLowerCase())
+
+      return bMatch - aMatch
+    })
+
+    return foods.slice(0, 20)
+  }
   onChange(event) {
-    const value = event.target.value.toLowerCase().trim()
+    const searchValue = event.target.value.toLowerCase().trim()
 
-    let foods = []
-    if (value) {
-      foods = this.foodData.filter((food) => {
-        let foodLocal = food.ruoka.trim().toLowerCase()
+    const foods = this.getVisibleFoods(searchValue)
 
-        if (localization.getLanguage() === 'GB') {
-          foodLocal = food.food.trim().toLowerCase()
-        }
-
-        return foodLocal.includes(value)
-      })
-    }
     this.setState({
       foods,
-      searchValue: value,
+      searchValue,
     })
   }
   parseCSV(csvString) {
