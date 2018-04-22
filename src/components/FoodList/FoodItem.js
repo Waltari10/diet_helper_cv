@@ -52,6 +52,13 @@ export default class FoodItem extends Component {
     )
   }
   onTruncate(isLong) {
+    // Call once
+    if (this.onTruncateCalled) {
+      return
+    }
+
+    this.onTruncateCalled = true
+
     this.setState({
       isLong,
     })
