@@ -37,10 +37,8 @@ export default class FoodList extends Component {
 
       const matchPercentage = getWordPercentageMatch(foodLocal.toLowerCase(), searchValue.toLowerCase())
 
-      return {
-        ...food,
-        matchPercentage,
-      }
+      return Object.assign({}, food, { matchPercentage })
+      
     })
 
     const filteredFoods = foodsWithMatchPercentage.filter(food => food.matchPercentage > 40)

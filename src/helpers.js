@@ -66,8 +66,6 @@ export function getEditDistance(s, t) {
       matrix[sIndexPlusOne][tIndexPlusOne] = min
     })
   })
-  // console.log(matrix)
-  // console.log(s, t, matrix[n][m])
   return matrix[n][m]
 }
 
