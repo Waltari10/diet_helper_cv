@@ -31,17 +31,26 @@ export default class FoodList extends Component {
   getVisibleFoods(searchValue) {
     if (!searchValue) return []
 
-    const foods = this.foodData.sort((a, b) => {
-      const aFood = localization.getLanguage() === 'GB' ? a.food : a.ruoka
-      const bFood = localization.getLanguage() === 'GB' ? b.food : b.ruoka
+    const foodsWithMatchPercentage = this.foodData.map((food) => {
+      const foodLocal = localization.getLanguage() === 'GB' ? food.food : food.ruoka
 
-      const aMatch = getWordPercentageMatch(aFood.toLowerCase(), searchValue.toLowerCase())
-      const bMatch = getWordPercentageMatch(bFood.toLowerCase(), searchValue.toLowerCase())
+      const matchPercentage = getWordPercentageMatch(foodLocal.toLowerCase(), searchValue.toLowerCase())
 
-      return bMatch - aMatch
+      return {
+        ...food,
+        matchPercentage,
+      }
     })
 
-    return foods.slice(0, 20)
+    const filteredFoods = foodsWithMatchPercentage.filter(food => food.matchPercentage > 40)
+
+    const sortedFoods = filteredFoods.sort((a, b) => a.matchPercentage - b.matchPercentage)
+
+    if (sortedFoods.length > 20) {
+      return sortedFoods.slice(0, 20)
+    }
+
+    return sortedFoods
   }
   onChange(event) {
     const searchValue = event.target.value.toLowerCase().trim()
