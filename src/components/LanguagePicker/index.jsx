@@ -3,7 +3,6 @@ import AngleDown from 'react-icons/lib/fa/angle-down'
 import AngleUp from 'react-icons/lib/fa/angle-up'
 import Flag from 'react-world-flags'
 import './styles.css'
-import localization from '../../Localization'
 
 export default class LanguagePicker extends Component {
   constructor(props) {
