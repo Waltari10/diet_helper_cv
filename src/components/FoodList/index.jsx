@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import IllegalIcon from 'react-icons/lib/fa/times-circle'
-import LegalIcon from 'react-icons/lib/fa/check'
 import { capitalizeFirstLetter, getWordPercentageMatch } from '../../helpers'
 
+
+import FoodItem from './FoodItem'
 import './styles.css'
 import localization from '../../Localization'
 import csv from './foodData'
@@ -12,6 +12,7 @@ export default class FoodList extends Component {
     super(props)
 
     this.onChange = this.onChange.bind(this)
+    this.renderFoodItem = this.renderFoodItem.bind(this)
 
     this.state = {
       foods: [],
@@ -86,27 +87,7 @@ export default class FoodList extends Component {
     return objArray
   }
   renderFoodItem(food) {
-    return (
-      <div
-        className="item-row"
-        key={food.food}
-      >
-        <p>
-          {localization.getLanguage() === 'GB' ? food.food : food.ruoka}
-        </p>
-
-        { food.legal.toLowerCase().trim() === 'legal' ?
-          <LegalIcon
-            color="#7FB222"
-            className="icon-row"
-          /> :
-          <IllegalIcon
-            color="#AB4A4A"
-            className="icon-row"
-          />
-        }
-      </div>
-    )
+    return <FoodItem key={food.food} food={food} />
   }
   renderFoodList() {
     return this.state.foods.map(this.renderFoodItem)

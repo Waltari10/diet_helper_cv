@@ -17,13 +17,44 @@ input[type=text] {
   border-radius: 5px;
   margin-bottom: 15px;
   padding-left: 15px;
-  height: 45px;
+  /* height: 45px; */
   position: relative;
 }
 
-.item-row p {
+.item-name {
   margin: auto 0;
   line-height: 45px;
+  font-weight: 700;
+}
+
+.icon-row {
+  width: 25px;
+  height: 25px;
+  color: green;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.padding-right {
+  width: calc(100% - 50px);
+}
+
+.padding-hack {
+  padding-bottom: 15px;
+}
+
+.item-description-child {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.item-arrow {
+  position: absolute;
+  right: 7px;
+  top: 55px;
+  color: #2D2223;
 }
 
 .search-bar {
@@ -35,13 +66,4 @@ input[type=text] {
   box-sizing: border-box;
   -webkit-box-sizing:border-box;
   -moz-box-sizing: border-box;
-}
-
-.icon-row {
-  width: 25px;
-  height: 25px;
-  color: green;
-  position: absolute;
-  right: 10px;
-  top: 10px;
 }

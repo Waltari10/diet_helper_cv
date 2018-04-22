@@ -9,6 +9,7 @@
     "react-icons": "^2.2.7",
     "react-localization": "^1.0.8",
     "react-scripts": "1.1.4",
+    "react-truncate": "^2.3.0",
     "react-world-flags": "0.0.3"
   },
   "scripts": {
