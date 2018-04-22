@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import IllegalIcon from 'react-icons/lib/fa/times-circle'
 import LegalIcon from 'react-icons/lib/fa/check'
-import { getEditDistance, capitalizeFirstLetter, getWordPercentageMatch } from '../../helpers'
+import { capitalizeFirstLetter, getWordPercentageMatch } from '../../helpers'
 
 import './styles.css'
 import localization from '../../Localization'
