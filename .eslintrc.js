@@ -34,6 +34,7 @@ module.exports = {
     "react/prefer-stateless-function": 0,
     "class-methods-use-this": 0,
     "no-plusplus": 0,
-    "react/sort-comp": 0
+    "react/sort-comp": 0,
+    "prefer-destructuring": 0
   }
 }

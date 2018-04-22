@@ -75,7 +75,7 @@ export default class FoodList extends Component {
       const obj = {}
 
       for (let k = 0; k < keys.length; k++) {
-        obj[keys[k]] = capitalizeFirstLetter(row[k])
+        obj[keys[k].toLowerCase()] = capitalizeFirstLetter(row[k])
       }
 
       return obj

@@ -51,37 +51,41 @@ export default class FoodItem extends Component {
         />
     )
   }
-  onTruncate() {
+  onTruncate(isLong) {
     this.setState({
-      isLong: true,
+      isLong,
     })
   }
   renderDescription(food) {
+    let description
+
+    if (localization.getLanguage() === 'GB') {
+      description = food.description
+    } else {
+      description = food.lisätieto
+    }
+
     return (
       <div
         className="padding-right"
       >
-        <div className="padding-hack" />
+        {description && <div className="padding-hack" />}
+        {description &&
         <Truncate
           onTruncate={this.onTruncate}
           lines={this.state.isExpanded ? 999 : 1}
-          className="item-description-child"
+          className="item-description"
         >
-          {food.description}
-        </Truncate>
+          {description}
+        </Truncate>}
 
-        <div className="padding-hack" />
+        {description && <div className="padding-hack" />}
         {this.state.isLong && this.renderItemArrow()}
       </div>
     )
   }
   render() {
-    const fo = this.props.food
-
-    const food = {
-      ...fo,
-      description: 'Anim aute pariatur duis nisi duis pariatur pariatur aute veniam.Excepteur ea cillum nisi occaecat.Sunt Lorem labore ad pariatur aute deserunt.Aliqua eu ipsum do aliquip consectetur veniam Lorem in dolore mollit quis Ad exercitation labore et dolor adipisicing cillum culpa et.',
-    }
+    const { food } = this.props
 
     return (
       <div

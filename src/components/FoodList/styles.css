@@ -17,7 +17,6 @@ input[type=text] {
   border-radius: 5px;
   margin-bottom: 15px;
   padding-left: 15px;
-  /* height: 45px; */
   position: relative;
 }
 
@@ -25,6 +24,11 @@ input[type=text] {
   margin: auto 0;
   line-height: 45px;
   font-weight: 700;
+  font-size: 17px;
+}
+.item-description {
+  line-height: normal;
+  font-size: 15px;
 }
 
 .icon-row {
@@ -44,11 +48,6 @@ input[type=text] {
   padding-bottom: 15px;
 }
 
-.item-description-child {
-  font-size: 15px;
-  font-weight: 300;
-  line-height: normal;
-}
 
 .item-arrow {
   position: absolute;
