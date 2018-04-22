@@ -44,7 +44,7 @@ export default class FoodList extends Component {
 
     const filteredFoods = foodsWithMatchPercentage.filter(food => food.matchPercentage > 40)
 
-    const sortedFoods = filteredFoods.sort((a, b) => a.matchPercentage - b.matchPercentage)
+    const sortedFoods = filteredFoods.sort((a, b) => b.matchPercentage - a.matchPercentage)
 
     if (sortedFoods.length > 20) {
       return sortedFoods.slice(0, 20)
