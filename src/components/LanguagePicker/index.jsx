@@ -11,7 +11,6 @@ export default class LanguagePicker extends Component {
 
     this.state = {
       isOpen: false,
-      countryCode: 'FI',
     }
 
     this.selectLanguage = this.selectLanguage.bind(this)
@@ -22,11 +21,9 @@ export default class LanguagePicker extends Component {
       isOpen: !this.state.isOpen,
     })
   }
-  selectLanguage(code) {
-    localization.setLanguage(code)
-    this.props.forceUpdate()
+  selectLanguage(countryCode) {
+    this.props.setLanguage(countryCode)
     this.setState({
-      countryCode: code,
       isOpen: false,
     })
   }
@@ -79,7 +76,7 @@ export default class LanguagePicker extends Component {
         <Flag
           height={15}
           className="flag"
-          code={this.state.countryCode}
+          code={this.props.countryCode}
         />
       </div>
     )
