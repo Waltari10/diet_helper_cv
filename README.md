@@ -3,6 +3,7 @@ How to release:
 - Move build/app.js to gh-pages branch.
 
 TODO:
+- Should there be more margin on the top and on the sides of food items?
 - Figure out a way to manage food translations in an easier way
 - Allow links in food description. Or maybe have more detailed longer text with MD (?)
 - Make it easier to make changes to foods
