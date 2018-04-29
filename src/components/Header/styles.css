@@ -2,8 +2,14 @@
   background: url('blueberries.jpg');
   background-size: cover;
   width: 100%;
+  display: block;
   height: 200px;
   box-shadow: 0 1px 5px grey;
+}
+
+.header-wrapper {
+  height: 200px;
+  position: relative;
 }
 
 .site-title {
@@ -11,7 +17,9 @@
   font-size: 60px;
   color: white;
   margin-top: 0;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
 }
