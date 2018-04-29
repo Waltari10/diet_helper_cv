@@ -1,11 +1,13 @@
 .search-container {
   max-width: 630px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
 input[type=text] {
+  width: 100%;
   padding-left: 15px;
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
@@ -57,6 +59,7 @@ input[type=text] {
 }
 
 .search-bar {
+  flex: 1;
   border-radius: 5px;
   height: 45px;
   margin-top: 30px;

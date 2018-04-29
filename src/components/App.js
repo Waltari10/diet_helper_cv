@@ -34,6 +34,7 @@ export default class App extends Component {
           countryCode={this.state.countryCode}
         />
         <FoodList />
+        <div className="space-filler"></div>
         <Footer />
       </div>
     )
