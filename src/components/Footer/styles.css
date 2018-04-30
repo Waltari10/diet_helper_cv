@@ -19,14 +19,26 @@
   margin: auto;
 }
 
+.footer-copyright {
+  clear: both;
+  padding-top: 30px;
+  color: white;
+  font-size: 15px;
+}
+
 .footer-text {
   clear: both;
   padding-top: 30px;
   color: white;
+  font-size: 14px;
+}
+
+.footer-text a {
+  color: white;
 }
 
 .footer-link {
-  font-size: 15px;
+  font-size: 14px;
   color: white;
 }
 

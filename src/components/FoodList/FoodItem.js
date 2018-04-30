@@ -69,9 +69,9 @@ export default class FoodItem extends Component {
     let description
 
     if (localization.getLanguage() === 'GB') {
-      description = food.description
+      description = food.description.toUpperCase()
     } else {
-      description = food.lisätieto
+      description = food.lisätieto.toUpperCase()
     }
 
 
