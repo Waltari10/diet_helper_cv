@@ -28,9 +28,24 @@ input[type=text] {
   font-weight: 700;
   font-size: 17px;
 }
-.item-description {
+
+.item-description-hidden {
   line-height: normal;
   font-size: 15px;
+  display: none;
+}
+
+.item-description-visible {
+  line-height: normal;
+  font-size: 15px;
+}
+
+.item-description-visible-truncated {
+  line-height: normal;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .icon-row {
@@ -49,7 +64,6 @@ input[type=text] {
 .padding-hack {
   padding-bottom: 15px;
 }
-
 
 .item-arrow {
   position: absolute;
