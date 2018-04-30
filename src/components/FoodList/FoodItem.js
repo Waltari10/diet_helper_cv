@@ -78,7 +78,7 @@ export default class FoodItem extends Component {
     if (_.isEmpty(description)) return null
 
 
-    description = reactStringReplace(description, /(https?:\/\/\S+)/g, (match, i) => (
+    description = reactStringReplace(description.toLowerCase(), /(https?:\/\/\S+)/g, (match, i) => (
       <a target={"_blank"} key={match + i} href={match}>{match}</a>
     ))
 
