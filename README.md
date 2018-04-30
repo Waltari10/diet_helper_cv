@@ -2,7 +2,12 @@ How to release:
 - npm run browserify
 - Move build/app.js to gh-pages branch.
 
+Bugs: 
+- Right now using commas in description or food names does not work, as app relies on parsing CSV as data source.
+
 TODO:
+- Utilize JSON instead of CSV.
+- Separate excel into FIN and ENG foods
 - Allow linking by users to specific search terms
 - Figure out which language to show initially to user
 - Remember which language user picked
