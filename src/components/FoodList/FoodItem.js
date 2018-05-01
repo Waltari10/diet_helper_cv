@@ -77,8 +77,6 @@ export default class FoodItem extends Component {
       <div
         className="padding-right"
       >
-        <div className="padding-hack" />
-
         {
           // This is a hack to do two things:
           // 1. Have text with html tags truncated. Truncate package does not support html tags.
