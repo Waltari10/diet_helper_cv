@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { capitalizeFirstLetter, getWordPercentageMatch } from '../../helpers'
+import { getWordPercentageMatch } from '../../helpers'
 
 
 import FoodItem from './FoodItem'
 import './styles.css'
 import localization from '../../Localization'
-import csv from './foodData'
+import json from './foodData.json'
 
 export default class FoodList extends Component {
   constructor(props) {
@@ -18,7 +18,6 @@ export default class FoodList extends Component {
       foods: [],
       locale: localization.getLanguage(),
     }
-    this.foodData = this.parseCSV(csv)
   }
   // TODO this is risky...
   componentWillUpdate() {
@@ -32,16 +31,15 @@ export default class FoodList extends Component {
   getVisibleFoods(searchValue) {
     if (!searchValue) return []
 
-    const foodsWithMatchPercentage = this.foodData.map((food) => {
-      const foodLocal = localization.getLanguage() === 'GB' ? food.food : food.ruoka
+    const foodData = json[localization.getLanguage().toLowerCase()]
 
-      const matchPercentage = getWordPercentageMatch(foodLocal.toLowerCase(), searchValue.toLowerCase())
+    const foodsWithMatchPercentage = Object.keys(foodData).map((key) => {
+      const matchPercentage = getWordPercentageMatch(key.toLowerCase(), searchValue.toLowerCase())
 
-      return Object.assign({}, food, { matchPercentage })
-      
+      return Object.assign({}, foodData[key], { matchPercentage })
     })
 
-    const filteredFoods = foodsWithMatchPercentage.filter(food => food.matchPercentage > 40)
+    const filteredFoods = foodsWithMatchPercentage.filter(food => food.matchPercentage > 10)
 
     const sortedFoods = filteredFoods.sort((a, b) => b.matchPercentage - a.matchPercentage)
 
@@ -61,31 +59,8 @@ export default class FoodList extends Component {
       searchValue,
     })
   }
-  parseCSV(csvString) {
-    const csvRows = csvString.split('\n')
-    const keys = csvRows[0].split(',').map(k => k.trim())
-
-    const objArray = csvRows.map((rowText, i) => {
-      // set key row undefined
-      if (i === 0) return undefined
-
-      const row = rowText.split(',')
-      const obj = {}
-
-      for (let k = 0; k < keys.length; k++) {
-        obj[keys[k].toLowerCase().trim()] = capitalizeFirstLetter(row[k]).trim()
-      }
-
-      return obj
-    })
-
-    // remove undefined
-    objArray.shift()
-
-    return objArray
-  }
   renderFoodItem(food) {
-    return <FoodItem key={food.food} food={food} />
+    return <FoodItem key={food.name} food={food} />
   }
   renderFoodList() {
     return this.state.foods.map(this.renderFoodItem)

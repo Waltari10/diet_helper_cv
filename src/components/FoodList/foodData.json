@@ -1,0 +1,4421 @@
+{
+  "gb": {
+    "Acorn Squash": {
+      "name": "Acorn Squash",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Agar-agar": {
+      "name": "Agar-agar",
+      "legal": "Illegal",
+      "description": "Contains polysaccharides.  See wikipedia: https://en.wikipedia.org/wiki/Agar"
+    },
+    "Agave syrup": {
+      "name": "Agave syrup",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Algae": {
+      "name": "Algae",
+      "legal": "Illegal",
+      "description": "We do not use algae (Spirulina) because IBD involves the immune system and algae can aggravate an already disturbed immune system.    "
+    },
+    "Allspice": {
+      "name": "Allspice",
+      "legal": "Legal",
+      "description": "As long as you're just using Allspice as a cooking spice it's legal. Don't use the oil see Allspice  "
+    },
+    "Almond butter": {
+      "name": "Almond butter",
+      "legal": "Legal",
+      "description": "Almond butter with no sugar added is allowed.    "
+    },
+    "Almond milk": {
+      "name": "Almond milk",
+      "legal": "Legal",
+      "description": "May be tried after being on the diet for 6 months.    "
+    },
+    "Almond oil": {
+      "name": "Almond oil",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Almonds": {
+      "name": "Almonds",
+      "legal": "Legal",
+      "description": "Nuts sold in mixtures are not allowed as most are roasted with a starch coating. Nuts should only be used as nut flour in recipes until diarrhea has subsided. "
+    },
+    "Aloe Vera": {
+      "name": "Aloe Vera",
+      "legal": "Illegal",
+      "description": "It contains mucilaginous polysaccharides as well as increasing the release of tumor necrosis factor which is associated with IBD inflammation and increased immune stimulation.    "
+    },
+    "Amaranth flour": {
+      "name": "Amaranth flour",
+      "legal": "Illegal",
+      "description": "Amaranth is a grain substitute, contains starches and so is not allowed.   "
+    },
+    "Anchovies": {
+      "name": "Anchovies",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Apple Juice": {
+      "name": "Apple Juice",
+      "legal": "Legal",
+      "description": "It is brown and not clear as apple juice is. It should be just straight pressed apples. It is usually pasteurized in order to kill bacteria. Cider should be diluted with water before drinking.    "
+    },
+    "Apples": {
+      "name": "Apples",
+      "legal": "Legal",
+      "description": "Apple juice usually has sugar added during processing. Apple cider is allowed. It should be brown and not clear as apple juice is. Cider should be diluted with water before drinking.    "
+    },
+    "Apricots": {
+      "name": "Apricots",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Arrowroot": {
+      "name": "Arrowroot",
+      "legal": "Illegal",
+      "description": "It is a mucilaginous herb. Mucilaginous herbs are loaded with starch. This starch is food for the pathogens that the SCD™ is designed to starve out.    "
+    },
+    "Artichokes (French)": {
+      "name": "Artichokes (French)",
+      "legal": "Legal",
+      "description": "They are the green artichokes that you steam then dip the leaves in lemon butter and scrape off with your teeth. They have edible hearts and an inedible choke.   "
+    },
+    "Artichokes (Jerusalem)": {
+      "name": "Artichokes (Jerusalem)",
+      "legal": "Illegal",
+      "description": "They are actually a tuber and are not legal.   "
+    },
+    "Ascorbic acid": {
+      "name": "Ascorbic acid",
+      "legal": "Legal",
+      "description": "Should be nothing but Vitamin C.    "
+    },
+    "Asiago cheese": {
+      "name": "Asiago cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Asparagus": {
+      "name": "Asparagus",
+      "legal": "Legal",
+      "description": "Fresh or frozen is allowed. Canned vegetables are not allowed.    "
+    },
+    "Aspartame": {
+      "name": "Aspartame",
+      "legal": "Legal",
+      "description": "When symptom free one aspartame sweetened soft drink per week is allowed - Elaine. But see Aspartame in Knowledge Base.  http://btvc.webfactional.com/knowledge-base/detail/aspartame/ "
+    },
+    "Aspartic acid": {
+      "name": "Aspartic acid",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Astragalus": {
+      "name": "Astragalus",
+      "legal": "Illegal",
+      "description": "contains polysaccharides    "
+    },
+    "Avocado oil": {
+      "name": "Avocado oil",
+      "legal": "Legal",
+      "description": "Good for mayonaise and salad dressings but might not withstand heat very well    "
+    },
+    "Avocadoes": {
+      "name": "Avocadoes",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Bacon": {
+      "name": "Bacon",
+      "legal": "Legal",
+      "description": "Smoked bacon that has been fried very crisply is allowed once per week. There are sugar-free bacons available and if you are able to find a source of sugar-free bacon you do not have to limit your consumption to once per week. Usually the low sodium varieties do not contain sugar but check the labels carefully.   "
+    },
+    "Baker's yeast": {
+      "name": "Baker's yeast",
+      "legal": "Illegal",
+      "description": "Saccharamyces cerevisae is baker's yeast and is illegal.    "
+    },
+    "Baking powder": {
+      "name": "Baking powder",
+      "legal": "Illegal",
+      "description": "Has starch as an ingredient (usually corn starch) and other illegals to make it rise better.   "
+    },
+    "Baking soda": {
+      "name": "Baking soda",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Balsamic vinegar": {
+      "name": "Balsamic vinegar",
+      "legal": "Illegal",
+      "description": "It's not that balsamic vinegar is illegal it's that what you can get in the store isn't really balsamic vinegar and most have sugar added to them so Elaine doesn't allow it. You can make your own legal substitute though see scdrecipe   "
+    },
+    "Bananas": {
+      "name": "Bananas",
+      "legal": "Legal",
+      "description": "They must be ripe with black spots on the skin.    "
+    },
+    "Bark tea": {
+      "name": "Bark tea",
+      "legal": "Illegal",
+      "description": "Bark tea (Pau d'Arco) contains steroidal saponins and is both an immune booster and a laxative.    "
+    },
+    "Barley": {
+      "name": "Barley",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Basil": {
+      "name": "Basil",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Bay Leaf": {
+      "name": "Bay Leaf",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Bean flour": {
+      "name": "Bean flour",
+      "legal": "Illegal",
+      "description": "Do not use ready made flours made from beans or lentils as they probably weren't soaked prior to grinding to bean flour.   "
+    },
+    "Bean sprouts": {
+      "name": "Bean sprouts",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Bee Pollen": {
+      "name": "Bee Pollen",
+      "legal": "Illegal",
+      "description": "Pollen is irritating to a damaged gut. Clear pure pasteurized honey is okay. Cloudy honey (still containing the pollen) should be avoided. - Sheila  "
+    },
+    "Beef": {
+      "name": "Beef",
+      "legal": "Legal",
+      "description": "Fresh and frozen are allowed as long as nothing has been added during processing; check the labels carefully.    "
+    },
+    "Beer": {
+      "name": "Beer",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Beets": {
+      "name": "Beets",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Berries": {
+      "name": "Berries",
+      "legal": "Legal",
+      "description": "Berries of all kinds are legal.    "
+    },
+    "Bhindi": {
+      "name": "Bhindi",
+      "legal": "Illegal",
+      "description": "No okra (bhindi) or drumsticks since they are a mucilaginous food they are illegal.  "
+    },
+    "Bitter Gourd": {
+      "name": "Bitter Gourd",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Black beans": {
+      "name": "Black beans",
+      "legal": "Legal",
+      "description": "May be tried when symptom free. Dried legumes must be prepared according to the instructions in the book Breaking the Vicious Cycle.'   "
+    },
+    "Black eye beans": {
+      "name": "Black eye beans",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Black radish": {
+      "name": "Black radish",
+      "legal": "Legal",
+      "description": "It is very fibrous so go slowly and be careful.   "
+    },
+    "Blue cheese": {
+      "name": "Blue cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Bok Choy": {
+      "name": "Bok Choy",
+      "legal": "Legal",
+      "description": "Bok Choy is much like cabbage and is legal, but you should not use a member of the cabbage family until you are well on your way to getting better. In other words do not use if you still have diarrhea and gas.   "
+    },
+    "Bologna": {
+      "name": "Bologna",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Bouillon cubes": {
+      "name": "Bouillon cubes",
+      "legal": "Illegal",
+      "description": "Bouillon cubes and instant soup bases are not permitted.    "
+    },
+    "Bourbon": {
+      "name": "Bourbon",
+      "legal": "Legal",
+      "description": "Only have it occasionally.    "
+    },
+    "Brandy": {
+      "name": "Brandy",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Brazil nuts": {
+      "name": "Brazil nuts",
+      "legal": "Legal",
+      "description": "Nuts sold in mixtures are not allowed as most are roasted with a starch coating.   "
+    },
+    "Brick cheese": {
+      "name": "Brick cheese",
+      "legal": "Legal",
+      "description": "May be used freely.    "
+    },
+    "Brie cheese": {
+      "name": "Brie cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Broccoli": {
+      "name": "Broccoli",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Brussell sprouts": {
+      "name": "Brussell sprouts",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Buckwheat": {
+      "name": "Buckwheat",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Bulgur": {
+      "name": "Bulgur",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Burdock root": {
+      "name": "Burdock root",
+      "legal": "Illegal",
+      "description": "It contains inulin (FOS) and mucilage.    "
+    },
+    "Butter": {
+      "name": "Butter",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Butter beans": {
+      "name": "Butter beans",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Buttermilk": {
+      "name": "Buttermilk",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Butternut squash": {
+      "name": "Butternut squash",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Cabbage": {
+      "name": "Cabbage",
+      "legal": "Legal",
+      "description": "You should not use a member of the cabbage family until you are well on your way to getting better. In other words do not use if you still have diarrhea and gas.   "
+    },
+    "Camembert cheese": {
+      "name": "Camembert cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Canellini beans": {
+      "name": "Canellini beans",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Canned fish": {
+      "name": "Canned fish",
+      "legal": "Legal",
+      "description": "Canned in oil or water is acceptable but check the labels carefully. Do not buy products containing \"broth\". Usually the low sodium varieties do not contain \"broth\".   "
+    },
+    "Canned fruits": {
+      "name": "Canned fruits",
+      "legal": "Illegal",
+      "description": "Fruits canned in their own juice are allowed.    "
+    },
+    "Canned vegetables": {
+      "name": "Canned vegetables",
+      "legal": "Illegal",
+      "description": "There are no canned vegetables permitted they must either be fresh or frozen.   "
+    },
+    "Canola oil": {
+      "name": "Canola oil",
+      "legal": "Legal",
+      "description": "Legal but not recommended.   "
+    },
+    "Cantaloupe": {
+      "name": "Cantaloupe",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Capers": {
+      "name": "Capers",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Carob": {
+      "name": "Carob",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Carrageenan": {
+      "name": "Carrageenan",
+      "legal": "Illegal",
+      "description": "Carrageenan is seaweed and high in polysaccharides therefore illegal.   "
+    },
+    "Carrots": {
+      "name": "Carrots",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Cashews": {
+      "name": "Cashews",
+      "legal": "Legal",
+      "description": "Nuts sold in mixtures are not allowed as most are roasted with a starch coating.   "
+    },
+    "Cauliflower": {
+      "name": "Cauliflower",
+      "legal": "Legal",
+      "description": "Cauliflower is sometimes hard to digest and should be tried cautiously after some progress has been made on the diet.    "
+    },
+    "Celeriac /celery root": {
+      "name": "Celeriac /celery root",
+      "legal": "Legal",
+      "description": "However you should go slow and be careful. It is very fibrous even if it doesn't seem so when you steam it and mash it.  "
+    },
+    "Celery": {
+      "name": "Celery",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Cellulose (in supplements)": {
+      "name": "Cellulose (in supplements)",
+      "legal": "Legal",
+      "description": "Cellulose in your supplements is okay and virtually impossible to avoid.    "
+    },
+    "Cellulose Gum": {
+      "name": "Cellulose Gum",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Cereals": {
+      "name": "Cereals",
+      "legal": "Illegal",
+      "description": "However for a hot cereal recipe see SCDrecipe Hot cereal: http://www.scdrecipe.com/recipes/r_006_00407.php"
+    },
+    "Chard": {
+      "name": "Chard",
+      "legal": "Legal",
+      "description": "Chard (red, green, rainbow and swiss). Chard is similar to spinach/celery so it is legal. It also reminds me a bit of the cabbage family so use with caution if gas is still a problem - Elaine  "
+    },
+    "Cheddar cheese": {
+      "name": "Cheddar cheese",
+      "legal": "Legal",
+      "description": "May be used freely.    "
+    },
+    "Cheese": {
+      "name": "Cheese",
+      "legal": "Legal",
+      "description": "If a cheese is not a processed cheese (manufactured) but is a cheese that has had a bacterial culture involved with its production and is aged at least 30 days. Elaine says its OK.    "
+    },
+    "Cherimoya": {
+      "name": "Cherimoya",
+      "legal": "Legal",
+      "description": "Also known as custard apple or sharifa.    "
+    },
+    "Cherries": {
+      "name": "Cherries",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Chestnut flour": {
+      "name": "Chestnut flour",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Chestnuts": {
+      "name": "Chestnuts",
+      "legal": "Legal",
+      "description": "May be tried when symptom free. However if you buy dried chestnuts soak them and cook them until soft.  "
+    },
+    "Chevre": {
+      "name": "Chevre",
+      "legal": "Illegal",
+      "description": "Chevre is illegal but you can make a close approximation by dripping goat milk yogurt. Directions can be found at http://uclbs.org/recipes/dairy/suegoatcheese.php"
+    },
+    "Chewing gum": {
+      "name": "Chewing gum",
+      "legal": "Illegal",
+      "description": "Contains things like aspartame, maple or date sugar and other sugar substitutes which are illegal.   "
+    },
+    "Chick peas": {
+      "name": "Chick peas",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Chickory root": {
+      "name": "Chickory root",
+      "legal": "Illegal",
+      "description": "Chickory root is not legal. In my first book I suggested that it might be used instead of coffee beans. I have since learned that it contains large amounts of fructooligosaccharides. - Elaine   "
+    },
+    "Chlorella": {
+      "name": "Chlorella",
+      "legal": "Illegal",
+      "description": "It is a blue-green algae similar to spirulina    "
+    },
+    "Chocolate": {
+      "name": "Chocolate",
+      "legal": "Illegal",
+      "description": "Dr. Haas advised not to use cocoa or chocolate and this still goes it isn't just the sugar he was worried about.   "
+    },
+    "Cilantro": {
+      "name": "Cilantro",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Cinnamon": {
+      "name": "Cinnamon",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Citric Acid": {
+      "name": "Citric Acid",
+      "legal": "Legal",
+      "description": "Citric acid as an additive is OK    "
+    },
+    "Club soda": {
+      "name": "Club soda",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Cocoa powder": {
+      "name": "Cocoa powder",
+      "legal": "Illegal",
+      "description": "Dr. Haas advised not to use cocoa or chocolate and this still goes it isn't just the sugar he was worried about.   "
+    },
+    "Coconut": {
+      "name": "Coconut",
+      "legal": "Legal",
+      "description": "Fresh or unsweetened shredded coconut and coconut flour are all legal.   "
+    },
+    "Coconut milk": {
+      "name": "Coconut milk",
+      "legal": "Legal",
+      "description": "May be tried after being on the diet for 6 months.    "
+    },
+    "Coconut oil": {
+      "name": "Coconut oil",
+      "legal": "Legal",
+      "description": "Withstands heat well good for frying/cooking   "
+    },
+    "Coffee": {
+      "name": "Coffee",
+      "legal": "Legal",
+      "description": "Coffee should be made very weak. Instant coffee is not allowed.    "
+    },
+    "Coffee (instant)": {
+      "name": "Coffee (instant)",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Colby cheese": {
+      "name": "Colby cheese",
+      "legal": "Legal",
+      "description": "May be used freely.    "
+    },
+    "Collard greens": {
+      "name": "Collard greens",
+      "legal": "Legal",
+      "description": "Of the cabbage family introduce late in the diet   "
+    },
+    "Cordials": {
+      "name": "Cordials",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Corn": {
+      "name": "Corn",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Corn oil": {
+      "name": "Corn oil",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Corn syrup": {
+      "name": "Corn syrup",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Cornstarch": {
+      "name": "Cornstarch",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Cottage cheese": {
+      "name": "Cottage cheese",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Courgette": {
+      "name": "Courgette",
+      "legal": "Legal",
+      "description": "Also known as zucchini    "
+    },
+    "Cranberry juice": {
+      "name": "Cranberry juice",
+      "legal": "Legal",
+      "description": "We use Knudsen’s Just Cranberry juice as it has been checked out and does not have sugar added. It can be found in most health food stores. Juice should be diluted with water before drinking. Since this is pure cranberry juice it is very tart you may sweeten it with saccharine or honey or dilute it with legal apple cider instead of water.  "
+    },
+    "Cream": {
+      "name": "Cream",
+      "legal": "Illegal",
+      "description": "It is illegal as it contains lactose. Cream can be added to milk and then fermented to make SCD™24hr yoghurt as the lactose will be used up in the fermentation. Cream has less lactose than milk and the more fat it contains the less lactose it has.    "
+    },
+    "Cream cheese": {
+      "name": "Cream cheese",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Cream of Tartar": {
+      "name": "Cream of Tartar",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Croscomellose sodium": {
+      "name": "Croscomellose sodium",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Cucumbers": {
+      "name": "Cucumbers",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Cyclamate": {
+      "name": "Cyclamate",
+      "legal": "Legal",
+      "description": "It is actually a better alternative than saccharine if you can get it because it has no aftertaste. But it's almost impossible to find by itself and certainly not available in NA. "
+    },
+    "Date sugar": {
+      "name": "Date sugar",
+      "legal": "Illegal",
+      "description": "May be tried after being on the diet for quite sometime and symptom free but it is not recommended.    "
+    },
+    "Dates": {
+      "name": "Dates",
+      "legal": "Legal",
+      "description": "Medjool and California dates are allowed. They must be loose and not have anything added.    "
+    },
+    "Decaffeinated Products": {
+      "name": "Decaffeinated Products",
+      "legal": "Illegal",
+      "description": "Decaffeinated products are not legal since the manufacturing process may introduce questionable ingredients or reactions..    "
+    },
+    "Dextrose (contained in commercial products)": {
+      "name": "Dextrose (contained in commercial products)",
+      "legal": "Illegal",
+      "description": "The problem with the dextrose and fructose which is being sold as a granulated form as well as the dextrose contained in commercial products is that it is not pure dextrose which should be the same as the single sugar glucose found in fruits and honey.    "
+    },
+    "Dry Curd Cottage Cheese (DCCC)": {
+      "name": "Dry Curd Cottage Cheese (DCCC)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Durum Flour": {
+      "name": "Durum Flour",
+      "legal": "Illegal",
+      "description": "Its a type of wheat grain flour"
+    },
+    "Echinacea": {
+      "name": "Echinacea",
+      "legal": "Legal",
+      "description": "Especially if it is in Alcohol but even it is in pill form with a bit of lactose. It can be very helpful if a cold or flu is coming on.   "
+    },
+    "Edam cheese": {
+      "name": "Edam cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Eggplant": {
+      "name": "Eggplant",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Eggs": {
+      "name": "Eggs",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Ethanol": {
+      "name": "Ethanol",
+      "legal": "Legal",
+      "description": "Ethanol is alcohol - the kind in gin, etc."
+    },
+    "Evaporated cane juice": {
+      "name": "Evaporated cane juice",
+      "legal": "Illegal",
+      "description": "Fancy name for sugar"
+    },
+    "Ezekiel Bread": {
+      "name": "Ezekiel Bread",
+      "legal": "Illegal",
+      "description": "Has many Illegal ingredients Brown Rice Bran, FOS, Bifidus, flax seed"
+    },
+    "Faba beans": {
+      "name": "Faba beans",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Fenugreek": {
+      "name": "Fenugreek",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Feta Cheese": {
+      "name": "Feta Cheese",
+      "legal": "Illegal",
+      "description": "Feta may be used after about 6 months of improvement. But used only in small amounts.    "
+    },
+    "Figs": {
+      "name": "Figs",
+      "legal": "Legal",
+      "description": "Figs unpolluted by chemicals or additives are fine however I find them especially in dried form; to be a laxative. They also contain hundreds of tiny hard seeds which can be hard on the intestines. I'm still unable to tolerate them after almost a year on the SCD. If I were you I'd leave figs until you've been symptom free for at least a while. - Rob B  "
+    },
+    "Filberts (hazelnuts)": {
+      "name": "Filberts (hazelnuts)",
+      "legal": "Legal",
+      "description": "Nuts sold in mixtures are not allowed as most are roasted with a starch coating. Nuts should only be used as nut flour in recipes until diarrhea has subsided. "
+    },
+    "Fish": {
+      "name": "Fish",
+      "legal": "Legal",
+      "description": "Fresh and frozen are allowed as long as nothing has been added during processing; check the labels carefully.    "
+    },
+    "Flax seed": {
+      "name": "Flax seed",
+      "legal": "Illegal",
+      "description": "See Flax seed and flax seed oil within the Knowledge Base section: http://btvc.webfactional.com/knowledge-base/detail/flax-seed-and-flax-seed-oil-/"
+    },
+    "Flax seed oil": {
+      "name": "Flax seed oil",
+      "legal": "Legal",
+      "description": "See Flax seed and flax seed oil within the Knowledge Base section: http://btvc.webfactional.com/knowledge-base/detail/flax-seed-and-flax-seed-oil-/"
+    },
+    "Flour": {
+      "name": "Flour",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "FOS": {
+      "name": "FOS",
+      "legal": "Illegal",
+      "description": "Also known as fructooligosaccharides. See FOS in the Knowledge Base section/.   "
+    },
+    "Fowl": {
+      "name": "Fowl",
+      "legal": "Legal",
+      "description": "All types including turkey chicken duck goose pheasant"
+    },
+    "Orange Juice (concentrated)": {
+      "name": "Orange Juice (concentrated)",
+      "legal": "Legal",
+      "description": "If orange juice is just frozen and has no additives then it is legal however frozen orange juice is normally concentrated before freezing and the process to concentrate it makes it illegal see frozen orange juice processing   "
+    },
+    "Fructose (granulated)": {
+      "name": "Fructose (granulated)",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Fruits (canned)": {
+      "name": "Fruits (canned)",
+      "legal": "Legal",
+      "description": "Fruits canned in their own juice are allowed.    "
+    },
+    "Garbanzo beans": {
+      "name": "Garbanzo beans",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Garfava flour": {
+      "name": "Garfava flour",
+      "legal": "Illegal",
+      "description": "Made from two types of beans Garbanzo beans and Fava beans neither are SCD™legal.  "
+    },
+    "Garlic": {
+      "name": "Garlic",
+      "legal": "Legal",
+      "description": "Use fresh garlic; garlic powders have starch added as anti-caking agents. You may also make your own garlic powder from fresh garlic by dehydrating it and grinding it yourself.    "
+    },
+    "Gelatin (unflavored)": {
+      "name": "Gelatin (unflavored)",
+      "legal": "Legal",
+      "description": "It is a denatured protein that has lost its tertiary structure although it is not the best protein.    "
+    },
+    "Ghee": {
+      "name": "Ghee",
+      "legal": "Legal",
+      "description": "It's clarified butter    "
+    },
+    "Gin": {
+      "name": "Gin",
+      "legal": "Legal",
+      "description": "Only have it occasionally.    "
+    },
+    "Ginger": {
+      "name": "Ginger",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Gjetost cheese": {
+      "name": "Gjetost cheese",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Glucose candy": {
+      "name": "Glucose candy",
+      "legal": "Illegal",
+      "description": "Contains granulated glucose is known to contains other sugars in addition to glucose.    "
+    },
+    "Glycerin": {
+      "name": "Glycerin",
+      "legal": "Legal",
+      "description": "Since glycerin is not a sugar to begin with the \"ol\" at the end does not make it a sugar alcohol. Glycerin is considered to belong to the fat family. So does glycerol.   "
+    },
+    "Glycerol": {
+      "name": "Glycerol",
+      "legal": "Legal",
+      "description": "Since glycerin is not a sugar to begin with the \"ol\" at the end does not make it a sugar alcohol. Glycerin is considered to belong to the fat family. So does glycerol.   "
+    },
+    "Goatein": {
+      "name": "Goatein",
+      "legal": "Illegal",
+      "description": "It is a Protein powders that contains Bifidobacteria Bifidum. Protein Powders are a bad idea in any case as they're generally oxidized cholesterol - damaged by heat. - Deborah    "
+    },
+    "Gorgonzola cheese": {
+      "name": "Gorgonzola cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Gouda cheese": {
+      "name": "Gouda cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Granulated glucose": {
+      "name": "Granulated glucose",
+      "legal": "Illegal",
+      "description": "It is known to contains other sugars in addition to glucose.    "
+    },
+    "Grape juice": {
+      "name": "Grape juice",
+      "legal": "Legal",
+      "description": "White or dark grape juice is allowed. We use Welch's bottled grape juice as it has been checked out and does not have sugar added. Avoid frozen grape juice it usually has sugar added. Juice should be diluted with water before drinking.  "
+    },
+    "Grapefruit": {
+      "name": "Grapefruit",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Grapefruit juice": {
+      "name": "Grapefruit juice",
+      "legal": "Illegal",
+      "description": "Only legal if fresh. Frozen or canned grapefruit juice is not allowed. Juice should be diluted with water before drinking.   "
+    },
+    "Grapes": {
+      "name": "Grapes",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Grapeseed oil": {
+      "name": "Grapeseed oil",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Green tea": {
+      "name": "Green tea",
+      "legal": "Legal",
+      "description": "Limited to 2 cups per day.    "
+    },
+    "Gruyere cheese": {
+      "name": "Gruyere cheese",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Guar Gum": {
+      "name": "Guar Gum",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Gums": {
+      "name": "Gums",
+      "legal": "Illegal",
+      "description": "All gums are illegal.    "
+    },
+    "Ham": {
+      "name": "Ham",
+      "legal": "Legal",
+      "description": "Only if cured with salt. it is illegal if cured with sugar dextrose etc. see Ham: http://btvc.webfactional.com/knowledge-base/detail/ham/"
+    },
+    "Haricot beans": {
+      "name": "Haricot beans",
+      "legal": "Legal",
+      "description": "These are legal and are the same as navy beans. Dried legumes must be prepared according to the instructions in the book Breaking the Vicious Cycle.   "
+    },
+    "Havarti cheese": {
+      "name": "Havarti cheese",
+      "legal": "Legal",
+      "description": "May be used freely.    "
+    },
+    "Hazelnuts (filberts)": {
+      "name": "Hazelnuts (filberts)",
+      "legal": "Legal",
+      "description": "Nuts sold in mixtures are not allowed as most are roasted with a starch coating. Nuts should only be used as nut flour in recipes until diarrhea has subsided. "
+    },
+    "Hemp protein powder": {
+      "name": "Hemp protein powder",
+      "legal": "illegal",
+      "description": ""
+    },
+    "Hemp seed": {
+      "name": "Hemp seed",
+      "legal": "illegal",
+      "description": "    "
+    },
+    "Homemade yogurt": {
+      "name": "Homemade yogurt",
+      "legal": "Legal",
+      "description": "http://breakingtheviciouscycle.info/legal/detail/homemade-yogurt/"
+    },
+    "Honey": {
+      "name": "Honey",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Horseradish sauce": {
+      "name": "Horseradish sauce",
+      "legal": "Legal",
+      "description": "If homemade if manufactured only if you know they have not added illegals   "
+    },
+    "": {
+      "name": "",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Hot dogs": {
+      "name": "Hot dogs",
+      "legal": "Illegal",
+      "description": "Commercially produced hotdogs will normally be illegal but here is a legal recipe on SCDiet by Marilyn: http://www.scdiet.net/marilyn%27s%20recipe%203.htm"
+    },
+    "Hydrolyzed Protein": {
+      "name": "Hydrolyzed Protein",
+      "legal": "Illegal",
+      "description": "This is another term for MSG. Regardless of whether it is SCD™ legal or not we should all try to avoid it. MSG can be a potent neurotoxin.   "
+    },
+    "Ice cream": {
+      "name": "Ice cream",
+      "legal": "Illegal",
+      "description": "Commercially prepared ice cream is not allowed. However there are many wonderful recipes for homemade ice cream.   "
+    },
+    "Inositol": {
+      "name": "Inositol",
+      "legal": "Illegal",
+      "description": "Inositol is a sugar alcohol. Sugar alcohols will feed bacteria and that is something we do not want to do. Sugar alcohols generally cause diarrhea but small amounts in supplements are ok - Elaine    "
+    },
+    "Inulin": {
+      "name": "Inulin",
+      "legal": "Illegal",
+      "description": "Inulin is a FOS and is illegal see Inulin: http://btvc.webfactional.com/knowledge-base/detail/inulin/"
+    },
+    "Iron supplements": {
+      "name": "Iron supplements",
+      "legal": "Illegal",
+      "description": "Please do not get vitamins with iron; they encourage all kinds of infections especially in the gut and iron has had much research done on it re other diseases. No oral iron if you can help it. Just eat the liver pate and if you like liver, eat it at least once a week.  "
+    },
+    "Isoglucose": {
+      "name": "Isoglucose",
+      "legal": "Illegal",
+      "description": "It is a new sweetener likely to be used in many products in future. See Isoglucose: http://btvc.webfactional.com/knowledge_base/detail/isoglucose/"
+    },
+    "Jaggery (gur)": {
+      "name": "Jaggery (gur)",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Jalapenos": {
+      "name": "Jalapenos",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Jicama": {
+      "name": "Jicama",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Juice from concentrate": {
+      "name": "Juice from concentrate",
+      "legal": "Illegal",
+      "description": "Juice from concentrate is normally illegal because when it is reconstituted they often add other things (like sugar). Often additives are not listed on the label    "
+    },
+    "Kale": {
+      "name": "Kale",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Kefir": {
+      "name": "Kefir",
+      "legal": "Illegal",
+      "description": "See Kefir   "
+    },
+    "Ketchup": {
+      "name": "Ketchup",
+      "legal": "Illegal",
+      "description": "Commercially prepared ketchup contains sugar and is not allowed. See the gourmet section of the book Breaking the Vicious Cycle for a ketchup recipe.   "
+    },
+    "Kidney beans": {
+      "name": "Kidney beans",
+      "legal": "Legal",
+      "description": "(All Types) May be tried when symptom free. Dried legumes must be prepared according to the instructions in the book Breaking the Vicious Cycle.   "
+    },
+    "Kimchi": {
+      "name": "Kimchi",
+      "legal": "Legal",
+      "description": "See Kimchi: http://btvc.webfactional.com/knowledge-base/detail/kimchi/"
+    },
+    "Kiwi fruit": {
+      "name": "Kiwi fruit",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Kohlrabi": {
+      "name": "Kohlrabi",
+      "legal": "Illegal",
+      "description": "See Kohlrabi: http://btvc.webfactional.com/knowledge-base/detail/kohlrabi/"
+    },
+    "Konjac": {
+      "name": "Konjac",
+      "legal": "Illegal",
+      "description": "Also called  konjaku konnyaku or the konnyaku potato or elephant yam. The dried corm of the konjac plant contains around 40% glucomannan gum. See Miracle Noodles. "
+    },
+    "Kudzu (or kuzu)": {
+      "name": "Kudzu (or kuzu)",
+      "legal": "Illegal",
+      "description": "It is a mucilaginous herb. Mucilaginous herbs are loaded with starch. This starch is food for the pathogens that the SCD™ is designed to starve out.    "
+    },
+    "Kumquats": {
+      "name": "Kumquats",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "KyoGreen powder": {
+      "name": "KyoGreen powder",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "L-Theanine": {
+      "name": "L-Theanine",
+      "legal": "Legal",
+      "description": "It is an amino acid as long as its pure without illegal binders etc its legal as with any new food go slow introducing it. - Seth "
+    },
+    "Lactaid Milk": {
+      "name": "Lactaid Milk",
+      "legal": "Illegal",
+      "description": "The rate of flow of galactose to the liver when one drinks lactose hydrolyzed milk is high. With lactose hydrolyzed milk you are ingesting the two sugars: glucose and galactose at the same time. Note: Lactaid Milk is Lactose Hydrolyzed Milk   "
+    },
+    "Lactose Hydrolyzed Milk": {
+      "name": "Lactose Hydrolyzed Milk",
+      "legal": "Illegal",
+      "description": "The rate of flow of galactose to the liver when one drinks lactose hydrolyzed milk is high. With lactose hydrolyzed milk you are ingesting the two sugars: glucose and galactose at the same time. Note: Lactaid Milk is Lactose Hydrolyzed Milk   "
+    },
+    "Lamb": {
+      "name": "Lamb",
+      "legal": "Legal",
+      "description": "Fresh and frozen are allowed as long as nothing has been added during processing; check the labels carefully.    "
+    },
+    "Lecithin": {
+      "name": "Lecithin",
+      "legal": "Legal",
+      "description": "Derived from soy (illegal). There is plenty of good lecithin in egg yolks and Elaine sees no particular need to take it outside of a whole food.   "
+    },
+    "Leek": {
+      "name": "Leek",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Lemons": {
+      "name": "Lemons",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Lentils": {
+      "name": "Lentils",
+      "legal": "Legal",
+      "description": "Dried legumes must be prepared according to the instructions in the book Breaking the Vicious Cycle.   "
+    },
+    "Lettuce": {
+      "name": "Lettuce",
+      "legal": "Legal",
+      "description": "All varieties of lettuce are legal.    "
+    },
+    "leucine": {
+      "name": "leucine",
+      "legal": "Legal",
+      "description": "(supplement ingredient)    "
+    },
+    "Licorice": {
+      "name": "Licorice",
+      "legal": "Illegal",
+      "description": "Licorice is both a demulcent and a laxative. For more info on demulcents see Licorice and Demulcents: http://btvc.webfactional.com/knowledge-base/detail/demulcents/ http://btvc.webfactional.com/knowledge-base/detail/licorice/"
+    },
+    "Lignin": {
+      "name": "Lignin",
+      "legal": "Illegal",
+      "description": "Grinding lignin and tough stuff does not prevent certain microorganisms from thanking you for chewing up their nutrition. The little buggers then respond by eating faster and making more babies and toxins.    "
+    },
+    "Lima beans": {
+      "name": "Lima beans",
+      "legal": "Legal",
+      "description": "Dried or fresh are permitted. Dried legumes must be prepared according to the instructions in the book Breaking the Vicious Cycle.   "
+    },
+    "Limburger cheese": {
+      "name": "Limburger cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Limes": {
+      "name": "Limes",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Liqueurs": {
+      "name": "Liqueurs",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Liquid Clorychlorophyll": {
+      "name": "Liquid Clorychlorophyll",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Macadamia nuts": {
+      "name": "Macadamia nuts",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Macadamia oil": {
+      "name": "Macadamia oil",
+      "legal": "Legal",
+      "description": "Makes the best tasting mayo - Deborah.  Withstands heat well    "
+    },
+    "Magnesium citrate": {
+      "name": "Magnesium citrate",
+      "legal": "Legal",
+      "description": "(As a supplement ingredient)    "
+    },
+    "Magnesium Stearate": {
+      "name": "Magnesium Stearate",
+      "legal": "Legal",
+      "description": "(As a supplement ingredient)    "
+    },
+    "Maltitol": {
+      "name": "Maltitol",
+      "legal": "Illegal",
+      "description": "Sorbitol mannitol and xylitol are all sugar alcohols and are not SCD™ legal. They fall under the category of indigestible carbs and sugars and so allow companies to label things 'sugar free' even though they are providing nutrition to the bacteria that live in your digestive tract."
+    },
+    "Maltodextrin": {
+      "name": "Maltodextrin",
+      "legal": "Illegal",
+      "description": "Maltodextrin is the worst of the small molecules of sugars. It is a very short chain of glucose molecules (derived from starch). The chances of digestion are practically nil. It therefore will feed bacteria and because of its particular structure Elaine feels it is worse than even lactose.   "
+    },
+    "Manchego Cheese": {
+      "name": "Manchego Cheese",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Mangoes": {
+      "name": "Mangoes",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Mannitol": {
+      "name": "Mannitol",
+      "legal": "Illegal",
+      "description": "Sorbitol mannitol and xylitol are all sugar alcohols and are not SCD™ legal. They fall under the category of indigestible carbs and sugars and so allow companies to label things 'sugar free' even though they are providing nutrition to the bacteria that live in your digestive tract."
+    },
+    "Maple syrup": {
+      "name": "Maple syrup",
+      "legal": "Illegal",
+      "description": "Maple syrup is a disaccharide.    "
+    },
+    "Margarine": {
+      "name": "Margarine",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Marshmallow": {
+      "name": "Marshmallow",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Mead": {
+      "name": "Mead",
+      "legal": "Illegal",
+      "description": "If homemade and ingredients are honey and yeast commercial is likely to have sugar added and is illegal   "
+    },
+    "Meats": {
+      "name": "Meats",
+      "legal": "Legal",
+      "description": "All fesh or frozen meats with no additives or processing are legal including beef, lamb, pork, liver and kidney"
+    },
+    "Meats (canned)": {
+      "name": "Meats (canned)",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Meats (processed)": {
+      "name": "Meats (processed)",
+      "legal": "Illegal",
+      "description": "e.g. hot dogs, turkey loaf, spiced ham, bologna"
+    },
+    "Melatonin": {
+      "name": "Melatonin",
+      "legal": "Illegal",
+      "description": "Most have additives such as starch lactose and sugar"
+    },
+    "Melon": {
+      "name": "Melon",
+      "legal": "Legal",
+      "description": "All types are Legal    "
+    },
+    "Milk": {
+      "name": "Milk",
+      "legal": "Illegal",
+      "description": "Fluid milk of any kind is not permitted.    "
+    },
+    "Millet": {
+      "name": "Millet",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Miso": {
+      "name": "Miso",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Molasses": {
+      "name": "Molasses",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Monterey Jack cheese": {
+      "name": "Monterey Jack cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Mozzarella cheese": {
+      "name": "Mozzarella cheese",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "MSG": {
+      "name": "MSG",
+      "legal": "Illegal",
+      "description": "Regardless of whether it is SCD™ legal or not we should all try to avoid it. MSG can be a potent neurotoxin.   "
+    },
+    "Mucilaginous Herbs": {
+      "name": "Mucilaginous Herbs",
+      "legal": "Illegal",
+      "description": "Slimy mucilaginous substances are often prescribed as some think the \"coating\" properties are helpful to the intestines. They aren't. We who have compromised guts cannot digest this stuff but our bugs can have quite a party on it.   "
+    },
+    "Mucilaginous Polysaccharides": {
+      "name": "Mucilaginous Polysaccharides",
+      "legal": "Illegal",
+      "description": "Slimy mucilaginous substances are often prescribed as some think the \"coating\" properties are helpful to the intestines. They aren't. We who have compromised guts cannot digest this stuff but our bugs can have quite a party on it.   "
+    },
+    "Muenster cheese": {
+      "name": "Muenster cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Mungbeans": {
+      "name": "Mungbeans",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Mushrooms": {
+      "name": "Mushrooms",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Mustard (plain)": {
+      "name": "Mustard (plain)",
+      "legal": "Legal",
+      "description": "Mustard is legal as long as it doesn't contain illegal ingredients; read the labels carefully.    "
+    },
+    "Natural Flavors": {
+      "name": "Natural Flavors",
+      "legal": "Illegal",
+      "description": "Natural flavoring can be used to refer to anything including the chemicals coming from big \"flavor\" companies which sell chemicals to food processors.   "
+    },
+    "Navy beans": {
+      "name": "Navy beans",
+      "legal": "Legal",
+      "description": "Dried legumes must be prepared according to the instructions in the book Breaking the Vicious Cycle.   "
+    },
+    "Nectarines": {
+      "name": "Nectarines",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Nettles": {
+      "name": "Nettles",
+      "legal": "Illegal",
+      "description": "Adverse effects from consuming nettle tea can range from upset stomach to burning sensations in the skin difficulty in urination and bloating.   "
+    },
+    "Neufchatel cheese": {
+      "name": "Neufchatel cheese",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Noni Juice": {
+      "name": "Noni Juice",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Nutmeg": {
+      "name": "Nutmeg",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Oats": {
+      "name": "Oats",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Okra": {
+      "name": "Okra",
+      "legal": "Illegal",
+      "description": "No okra (bhindi) or drumsticks since they are a mucilaginous food they are illegal.  "
+    },
+    "Olive oil": {
+      "name": "Olive oil",
+      "legal": "Legal",
+      "description": "Olive oil withstands heat well good for frying, cooking and is highly recommended.   "
+    },
+    "Olives": {
+      "name": "Olives",
+      "legal": "Legal",
+      "description": "Olives are legal as long as they do not contain illegal ingredients; read the labels carefully.    "
+    },
+    "Onions": {
+      "name": "Onions",
+      "legal": "Legal",
+      "description": "Use fresh onions. Onion powders have starch added as anti-caking agents. You may also make your own onion powder from fresh onions by dehydrating them and grinding them yourself.    "
+    },
+    "Orange juice": {
+      "name": "Orange juice",
+      "legal": "Legal",
+      "description": "Fresh orange juice that does not have sugar added is allowed. While diarrhea is active avoid having orange juice in the morning. We use Tropicana's Original Orange Juice as it has been checked out and does not have sugar added.  "
+    },
+    "Oranges": {
+      "name": "Oranges",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Oregano": {
+      "name": "Oregano",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Papayas": {
+      "name": "Papayas",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Pappadum": {
+      "name": "Pappadum",
+      "legal": "Illegal",
+      "description": "They are an Indian snack made from lentils - they're like a chip. Also contains rice flour    "
+    },
+    "Paprika": {
+      "name": "Paprika",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Parmesan cheese": {
+      "name": "Parmesan cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Parsley": {
+      "name": "Parsley",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Parsnips": {
+      "name": "Parsnips",
+      "legal": "Illegal",
+      "description": "At one time I had them included in my book but after getting feedback from the inflammatory bowel listserv I took them off. Some children do well with them; others do not. However they are pretty good from a carb standpoint and Dr. Haas allowed them. - Elaine "
+    },
+    "Passion Fruit": {
+      "name": "Passion Fruit",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Pasta": {
+      "name": "Pasta",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Pau 'Arco": {
+      "name": "Pau 'Arco",
+      "legal": "Illegal",
+      "description": "Bark tea (Pau d'Arco) contains steroidal saponins and is both an immune booster and a laxative.    "
+    },
+    "Pea flour": {
+      "name": "Pea flour",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Peaches": {
+      "name": "Peaches",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Peanut butter": {
+      "name": "Peanut butter",
+      "legal": "Legal",
+      "description": "Natural peanut butter with no sugar added is allowed.    "
+    },
+    "Peanut Oil": {
+      "name": "Peanut Oil",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Peanuts": {
+      "name": "Peanuts",
+      "legal": "Legal",
+      "description": "Peanuts in the shell may be tried cautiously after 6 months on the diet if diarrhea is gone. Shelled peanuts are illegal. Nuts sold in mixtures are not allowed as most are roasted with a starch coating.   "
+    },
+    "Pears": {
+      "name": "Pears",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Peas": {
+      "name": "Peas",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Pecans": {
+      "name": "Pecans",
+      "legal": "Legal",
+      "description": "Nuts sold in mixtures are not allowed as most are roasted with a starch coating. Nuts should only be used as nut flour in recipes until diarrhea has subsided. "
+    },
+    "Pectin": {
+      "name": "Pectin",
+      "legal": "Illegal",
+      "description": "It is a polysaccharide which in the presence of acid and sugar gels. It is used as a thickener in jams and occurs naturally in some fruit like apples."
+    },
+    "Peppermint tea": {
+      "name": "Peppermint tea",
+      "legal": "Legal",
+      "description": "Some brands out there put in natural flavourings which would make them illegal so check the ingredients carefully - Charlene   "
+    },
+    "Peppers": {
+      "name": "Peppers",
+      "legal": "Legal",
+      "description": "Green, yellow and red peppers are permitted. Also jalapeno peppers, habanera peppers and chili peppers"
+    },
+    "Peptizyde": {
+      "name": "Peptizyde",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Persimmons": {
+      "name": "Persimmons",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Phosphatidylcholine": {
+      "name": "Phosphatidylcholine",
+      "legal": "Legal",
+      "description": "Another name for lecithin which is legal. Eggs have a huge amount of this but if you are not eating eggs perhaps a bit of supplement is fine. - Elaine   "
+    },
+    "Pickles (dill)": {
+      "name": "Pickles (dill)",
+      "legal": "Illegal",
+      "description": "Dill pickles are legal as long as they do not contain illegal ingredients; read the labels carefully. DILL PICKLES by Elaine Gottschall  http://www.scdiet.net/elainesrecipes.htm"
+    },
+    "Pine nuts": {
+      "name": "Pine nuts",
+      "legal": "Legal",
+      "description": "They are very hard to digest and even grinding them for pesto doesn't make them any easier on your gut. May be tried in small amounts after symptoms have subsided.    "
+    },
+    "Pineapple": {
+      "name": "Pineapple",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Pineapple juice": {
+      "name": "Pineapple juice",
+      "legal": "Legal",
+      "description": "fall 2010 update: \"The Dole 100% Pineapple juice in the can now adds Vitamins A, C and E. The Vitamin A is bound with cornstarch.\" old info: Fresh pineapple juice that does not have sugar added is allowed. We use Dole's unsweetened pineapple juice in the can, as it has been checked out and does not have sugar added. Juice should be diluted with water before drinking."
+    },
+    "Pinto beans": {
+      "name": "Pinto beans",
+      "legal": "Illegal",
+      "description": "Even after soaking they have the wrong kind of starch    "
+    },
+    "Pistachio nuts": {
+      "name": "Pistachio nuts",
+      "legal": "Legal",
+      "description": "They are legal but the skins can be really tough for newbies. And don't get the pink dyed ones or the salted ones because they can have starch added to them. You can get unsalted unroasted pistachios at the health food store and then roast them yourself. For instructions see Pistachio Nuts: http://www.breakingtheviciouscycle.info/knowledge_base/detail/pistachio-nuts/"
+    },
+    "Plantains": {
+      "name": "Plantains",
+      "legal": "Illegal",
+      "description": "They contain too much starch.    "
+    },
+    "Plums": {
+      "name": "Plums",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Polysorbate 80": {
+      "name": "Polysorbate 80",
+      "legal": "Illegal",
+      "description": "See Polysorbate 80    "
+    },
+    "Pomegranate concentrate": {
+      "name": "Pomegranate concentrate",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Pork": {
+      "name": "Pork",
+      "legal": "Legal",
+      "description": "Fresh and frozen are allowed as long as nothing has been added during processing; check the labels carefully.    "
+    },
+    "Pork Rinds": {
+      "name": "Pork Rinds",
+      "legal": "Legal",
+      "description": "Use the plain pork rinds with no added flavourings and check the label carefully to make sure they don't contain illegal ingredients    "
+    },
+    "Port du Salut cheese": {
+      "name": "Port du Salut cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Port wine": {
+      "name": "Port wine",
+      "legal": "Illegal",
+      "description": "Its full of sugar    "
+    },
+    "Postum": {
+      "name": "Postum",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Potassium Sorbate": {
+      "name": "Potassium Sorbate",
+      "legal": "Legal",
+      "description": "(supplement ingredient)    "
+    },
+    "Potatoes": {
+      "name": "Potatoes",
+      "legal": "Illegal",
+      "description": "Both white and sweet potatoes are illegal.    "
+    },
+    "Poultry": {
+      "name": "Poultry",
+      "legal": "Legal",
+      "description": "Fresh and frozen are allowed as long as nothing has been added during processing; check the labels carefully.    "
+    },
+    "Primal Defense": {
+      "name": "Primal Defense",
+      "legal": "Illegal",
+      "description": "See Primal Defense   "
+    },
+    "Primost cheese": {
+      "name": "Primost cheese",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Processed cheeses": {
+      "name": "Processed cheeses",
+      "legal": "Illegal",
+      "description": "See the appendix of the book Breaking the Vicious Cycle for a complete list of illegal cheeses.  "
+    },
+    "Protein powder": {
+      "name": "Protein powder",
+      "legal": "Illegal",
+      "description": "See Protein powder   "
+    },
+    "Provolone cheese": {
+      "name": "Provolone cheese",
+      "legal": "Legal",
+      "description": "Although not listed with the other cheeses on page 140 of Breaking the Vicious Cycle provolone cheese is legal.   "
+    },
+    "Prunes": {
+      "name": "Prunes",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Psyllium husks": {
+      "name": "Psyllium husks",
+      "legal": "Illegal",
+      "description": "They are loaded with cellulose and lignin which some bacteria thrive on. We accept that the cellulose in vegetables and fruit can be handled OK but a concentrated form such as husks would not be in order.    "
+    },
+    "Pumpkin": {
+      "name": "Pumpkin",
+      "legal": "Legal",
+      "description": "Fresh pumpkin is legal, canned pumpkin is not allowed. Butternut squash may be used as a substitute for pumpkin in baking.   "
+    },
+    "Pumpkin (canned)": {
+      "name": "Pumpkin (canned)",
+      "legal": "Illegal",
+      "description": "Canned pumpkin is illegal. Butternut squash may be substituted for pumpkin in baking.    "
+    },
+    "Quinoa": {
+      "name": "Quinoa",
+      "legal": "Illegal",
+      "description": "Since Quinoa is 60% starch it is very illegal.   "
+    },
+    "Quorn": {
+      "name": "Quorn",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Raisins": {
+      "name": "Raisins",
+      "legal": "Legal",
+      "description": "Try them cautiously.    "
+    },
+    "Rhubarb": {
+      "name": "Rhubarb",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Rice": {
+      "name": "Rice",
+      "legal": "Illegal",
+      "description": "Both brown and white rice are illegal.    "
+    },
+    "Rice Bran": {
+      "name": "Rice Bran",
+      "legal": "Illegal",
+      "description": "Except as a supplement filler as it is mainly oil. If one is taking a supplement which has proven to be efficacious then the small amount of filler within the supplement will probably not have an adverse effect. - Elaine.   "
+    },
+    "Rice Flour": {
+      "name": "Rice Flour",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Ricotta cheese": {
+      "name": "Ricotta cheese",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Romano cheese": {
+      "name": "Romano cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Roquefort cheese": {
+      "name": "Roquefort cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally.    "
+    },
+    "Rosemary": {
+      "name": "Rosemary",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Rutabaga": {
+      "name": "Rutabaga",
+      "legal": "Legal",
+      "description": "Also known as swede It is very fibrous so go slow and be careful.   "
+    },
+    "Rye": {
+      "name": "Rye",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Tabasco sauce": {
+      "name": "Tabasco sauce",
+      "legal": "Illegal",
+      "description": "Only the original red Tabasco sauce, labeled \"McIlhenny Company Tabasco Brand Pepper Sauce\" is legal but as with all manufactured products check the ingredients. The other Tabasco styles all have sugars and gums added."
+    },
+    "Tagatose": {
+      "name": "Tagatose",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Tamari": {
+      "name": "Tamari",
+      "legal": "Illegal",
+      "description": "It is made from soy"
+    },
+    "Tamarind": {
+      "name": "Tamarind",
+      "legal": "Illegal",
+      "description": "See, Tamarind"
+    },
+    "Tangerines": {
+      "name": "Tangerines",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Tapioca": {
+      "name": "Tapioca",
+      "legal": "Illegal",
+      "description": "It is a starch, therefore illegal."
+    },
+    "Tapioca Flour": {
+      "name": "Tapioca Flour",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Taro": {
+      "name": "Taro",
+      "legal": "Illegal",
+      "description": "It has much too much starch in it and is very similar to potatoes."
+    },
+    "Tarragon": {
+      "name": "Tarragon",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Tea": {
+      "name": "Tea",
+      "legal": "Legal",
+      "description": "Ordinary black tea is legal but should be made weak.\nInstant tea,Ojibwa tea (Essiac), many herbal teas, teas made from bark etc are full of polysaccharides and are illegal. Peppermint and spearmint herb teas are legal, and you can make a tea from ginger which is also legal."
+    },
+    "Thyme": {
+      "name": "Thyme",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Tofu": {
+      "name": "Tofu",
+      "legal": "Illegal",
+      "description": "It is made from soy"
+    },
+    "Tofutti cheese": {
+      "name": "Tofutti cheese",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "tomato": {
+      "name": "tomato",
+      "legal": "Legal",
+      "description": "Canned tomatoes are illegal."
+    },
+    "Tomato juice (canned)": {
+      "name": "Tomato juice (canned)",
+      "legal": "Legal",
+      "description": "Should only have salt added. Also see Tomato Juice - canned http://btvc.webfactional.com/knowledge-base/detail/tomato-juice-canned/"
+    },
+    "Tomato paste (canned)": {
+      "name": "Tomato paste (canned)",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Tomato purée (canned)": {
+      "name": "Tomato purée (canned)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Tomato sauce (canned)": {
+      "name": "Tomato sauce (canned)",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Triticale": {
+      "name": "Triticale",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Turbinado": {
+      "name": "Turbinado",
+      "legal": "Illegal",
+      "description": "It is liquid cane sugar, therefore it is illegal."
+    },
+    "Turnips": {
+      "name": "Turnips",
+      "legal": "Illegal",
+      "description": "In the most recent printing of BTVC (Ninth Printing - May 2002), turnips were moved from the 'allowed' list to the 'not allowed' list."
+    },
+    "V8 Juice": {
+      "name": "V8 Juice",
+      "legal": "Illegal",
+      "description": "It has tomato paste listed as an ingredient. Elaine has listed tomato paste as being illegal. It is also made from concentrate and has added sugar."
+    },
+    "Vanillin": {
+      "name": "Vanillin",
+      "legal": "Legal",
+      "description": "But not in concentrated form see Vanillin http://btvc.webfactional.com/knowledge-base/detail/vanillin/"
+    },
+    "Vegetable stearate": {
+      "name": "Vegetable stearate",
+      "legal": "Legal",
+      "description": "I believe that stearate is always a fat (stearic acid) so vegetable stearate would be a fat from some vegetable like coconut, etc. -- Elaine"
+    },
+    "Vegetables (canned)": {
+      "name": "Vegetables (canned)",
+      "legal": "Illegal",
+      "description": "Canned vegetables are not permitted; they must either be fresh or frozen."
+    },
+    "Vinegar": {
+      "name": "Vinegar",
+      "legal": "Legal",
+      "description": "Red and white wine vinegar also white and cider vinegars are allowed but check the label for added illegals. Balsamic vinegar is not allowed as it has added sugar. However you can make your own legal balsamic vinegar substitute see scdrecipe http://www.scdrecipe.com/recipes/"
+    },
+    "Vodka": {
+      "name": "Vodka",
+      "legal": "Legal",
+      "description": "Only have it occasionally."
+    },
+    "Saccharin": {
+      "name": "Saccharin",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Safflower oil": {
+      "name": "Safflower oil",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Sage": {
+      "name": "Sage",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Sago starch": {
+      "name": "Sago starch",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Sake": {
+      "name": "Sake",
+      "legal": "Illegal",
+      "description": "It is not a distilled spirit like Vodka and it is the distillation that removes the illegals - Seth Both sweet and dry sake still have sugar and actually the dry sake has more sugar than the sweet sake but you can't taste it because of the acidity. - Kim"
+    },
+    "Salt": {
+      "name": "Salt",
+      "legal": "Legal",
+      "description": "Ordinary iodized table salt, altho it sometimes has dextrose, is legal because it is important to get that iodine"
+    },
+    "Sashimi": {
+      "name": "Sashimi",
+      "legal": "Legal",
+      "description": "(Japanese sushi-style raw fish served all by itself w/o rice)"
+    },
+    "saukerkraut": {
+      "name": "saukerkraut",
+      "legal": "Legal",
+      "description": "Only for advanced SCD'ers"
+    },
+    "Seaweed": {
+      "name": "Seaweed",
+      "legal": "Illegal",
+      "description": "Seaweed is high in polysaccharides and therefore illegal."
+    },
+    "Seed Butters": {
+      "name": "Seed Butters",
+      "legal": "Illegal",
+      "description": "Seed Butters http://btvc.webfactional.com/knowledge-base/detail/seed-butters/"
+    },
+    "Seed Flour": {
+      "name": "Seed Flour",
+      "legal": "Illegal",
+      "description": "It is not allowed because the quantity of the flour way surpasses the few seeds that Elaine had in mind when she said \"seeds are permissible after 3 months of no symptoms.\""
+    },
+    "Seeds": {
+      "name": "Seeds",
+      "legal": "Legal",
+      "description": "Permissible after 3 months of no symptoms."
+    },
+    "Sesame oil": {
+      "name": "Sesame oil",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Sesame seeds": {
+      "name": "Sesame seeds",
+      "legal": "Illegal",
+      "description": "Sesame seeds http://btvc.webfactional.com/knowledge-base/detail/sesame-seeds/"
+    },
+    "Sharifa": {
+      "name": "Sharifa",
+      "legal": "Legal",
+      "description": "Also known as custard apple or cherimoya"
+    },
+    "Shellfish": {
+      "name": "Shellfish",
+      "legal": "Legal",
+      "description": "Fresh and frozen are allowed as long as nothing has been added during processing; check the labels carefully."
+    },
+    "Sherry": {
+      "name": "Sherry",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Silica / Silicon Dioxide": {
+      "name": "Silica / Silicon Dioxide",
+      "legal": "Legal",
+      "description": "(supplement ingredient)"
+    },
+    "Slippery elm": {
+      "name": "Slippery elm",
+      "legal": "Illegal",
+      "description": "It is a mucilaginous herb. Mucilaginous herbs are loaded with starch. This starch is food for the pathogens that the SCD™ is designed to starve out."
+    },
+    "Smoked meats": {
+      "name": "Smoked meats",
+      "legal": "Illegal",
+      "description": "Unless you know with certainty that no sugar has been added during the smoking process, they are not permitted."
+    },
+    "Sodium Benzoate": {
+      "name": "Sodium Benzoate",
+      "legal": "Legal",
+      "description": "(supplement ingredient)"
+    },
+    "Sodium starch glycinate": {
+      "name": "Sodium starch glycinate",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Sorbitol": {
+      "name": "Sorbitol",
+      "legal": "Illegal",
+      "description": "Sorbitol, mannitol, and xylitol are all sugar alcohols and are not SCD™ legal. They fall under the category of indigestible carbs and sugars, and so allow companies to label things 'sugar free', even though they are providing nutrition to the bacteria that live in your digestive tract."
+    },
+    "Sour cream": {
+      "name": "Sour cream",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Soy": {
+      "name": "Soy",
+      "legal": "Illegal",
+      "description": "See - Soy"
+    },
+    "Soy Lecithin": {
+      "name": "Soy Lecithin",
+      "legal": "Legal",
+      "description": "Derived from soy (illegal). There is plenty of good lecithin in egg yolks, and Elaine sees no particular need to take it outside of a whole food. Also see Carlsons fish oil: http://btvc.webfactional.com/knowledge-base/detail/carlsons-fish-oil/"
+    },
+    "Soy Sauce": {
+      "name": "Soy Sauce",
+      "legal": "Illegal",
+      "description": "Soy sauce is a fermented soy product and also contains wheat so it is illegal."
+    },
+    "Soybean milk": {
+      "name": "Soybean milk",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Soybean oil": {
+      "name": "Soybean oil",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Soybeans": {
+      "name": "Soybeans",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Spearmint Tea": {
+      "name": "Spearmint Tea",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Spelt": {
+      "name": "Spelt",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Spices": {
+      "name": "Spices",
+      "legal": "Legal",
+      "description": "Spices of all kinds may be used, but avoid spice mixtures; buy spices separately."
+    },
+    "Spinach": {
+      "name": "Spinach",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Spirulina": {
+      "name": "Spirulina",
+      "legal": "Illegal",
+      "description": "We do not use algae (Spirulina) because IBD involves the immune system and can aggravate an already disturbed immune system."
+    },
+    "Splenda": {
+      "name": "Splenda",
+      "legal": "Illegal",
+      "description": "There are several reasons why it is illegal, see Splenda: http://btvc.webfactional.com/knowledge-base/detail/splenda/"
+    },
+    "Split peas": {
+      "name": "Split peas",
+      "legal": "Legal",
+      "description": "Dried legumes must be prepared according to the instructions in the book, Breaking the Vicious Cycle."
+    },
+    "Sprouted Grain Bread": {
+      "name": "Sprouted Grain Bread",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Squash": {
+      "name": "Squash",
+      "legal": "Legal",
+      "description": "Both winter and summer squashes are legal."
+    },
+    "Stevia": {
+      "name": "Stevia",
+      "legal": "Illegal",
+      "description": "Its molecular structure resembles a steroid and the effects are unknown. See, Stevia: http://www.breakingtheviciouscycle.info/knowledge_base/detail/stevia/"
+    },
+    "Stilton cheese": {
+      "name": "Stilton cheese",
+      "legal": "Legal",
+      "description": "May be used occasionally."
+    },
+    "String beans": {
+      "name": "String beans",
+      "legal": "Legal",
+      "description": "Also called Green Beans"
+    },
+    "Sucralose": {
+      "name": "Sucralose",
+      "legal": "Illegal",
+      "description": "There are several reasons why it is illegal, see Splenda: http://www.breakingtheviciouscycle.info/knowledge_base/detail/splenda/"
+    },
+    "Sulphites": {
+      "name": "Sulphites",
+      "legal": "Legal",
+      "description": "When a fruit such as peaches (dried) and coconut is sulphated, it means it has been exposed to sulphur to keep the color from darkening. Some people are allergic to sulphated products but most of us are not bothered by them."
+    },
+    "Sunflower oil": {
+      "name": "Sunflower oil",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Swede": {
+      "name": "Swede",
+      "legal": "Legal",
+      "description": "Another name for rutabaga"
+    },
+    "Sweet Potatoes": {
+      "name": "Sweet Potatoes",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Swiss cheese": {
+      "name": "Swiss cheese",
+      "legal": "Legal",
+      "description": "May be used freely."
+    },
+    "Xantham Gum": {
+      "name": "Xantham Gum",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "xylitol": {
+      "name": "xylitol",
+      "legal": "Illegal",
+      "description": "Sorbitol, mannitol, and xylitol are all sugar alcohols and are not SCD™ legal. They fall under the category of indigestible carbs and sugars, and so allow companies to label things 'sugar free', even though they are providing nutrition to the bacteria that live in your digestive tract."
+    },
+    "Zucchini": {
+      "name": "Zucchini",
+      "legal": "Legal",
+      "description": "Also known as Courgette"
+    },
+    "Yams": {
+      "name": "Yams",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Yoghurt (commercial)": {
+      "name": "Yoghurt (commercial)",
+      "legal": "Illegal",
+      "description": "Eating commercial yoghurt is not permitted. Commercial yoghurt may be used as a starter for making homemade yogurt. For directions for making yoghurt\nsee, See Commercial Yoghurt"
+    },
+    "Yoghurt (homemade)": {
+      "name": "Yoghurt (homemade)",
+      "legal": "Legal",
+      "description": "See, yoghurt in the Knowledge Base section for instructions on how to make legal yoghurt."
+    },
+    "Yucca Root": {
+      "name": "Yucca Root",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sugar": {
+      "name": "sugar",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "cane sugar": {
+      "name": "cane sugar",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "syrup": {
+      "name": "syrup",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "oat milk": {
+      "name": "oat milk",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "almond milk (homemade)": {
+      "name": "almond milk (homemade)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "rum": {
+      "name": "rum",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "lactose-free milk": {
+      "name": "lactose-free milk",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "lactose-free dairy": {
+      "name": "lactose-free dairy",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "candy": {
+      "name": "candy",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sweets": {
+      "name": "sweets",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "coco": {
+      "name": "coco",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "cocoa": {
+      "name": "cocoa",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "cocoa butter": {
+      "name": "cocoa butter",
+      "legal": "Legal",
+      "description": ""
+    },
+    "coconut flour": {
+      "name": "coconut flour",
+      "legal": "Legal",
+      "description": ""
+    },
+    "tuna (canned)": {
+      "name": "tuna (canned)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "spice blends": {
+      "name": "spice blends",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Walnut oil": {
+      "name": "Walnut oil",
+      "legal": "Legal",
+      "description": "Doesn't withstand heat very well    "
+    },
+    "Walnuts": {
+      "name": "Walnuts",
+      "legal": "Legal",
+      "description": "Nuts sold in mixtures are not allowed as most are roasted with a starch coating. Nuts should only be used as nut flour in recipes until diarrhea has subsided. "
+    },
+    "Wasabi": {
+      "name": "Wasabi",
+      "legal": "Legal",
+      "description": "As long as it is in its natural state and hasn't had fillers added by a manufacturer    "
+    },
+    "Water chestnuts": {
+      "name": "Water chestnuts",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Watercress": {
+      "name": "Watercress",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Watermelon": {
+      "name": "Watermelon",
+      "legal": "Legal",
+      "description": "    "
+    },
+    "Wheat": {
+      "name": "Wheat",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "Wheat germ": {
+      "name": "Wheat germ",
+      "legal": "Illegal",
+      "description": "    "
+    },
+    "whisky": {
+      "name": "whisky",
+      "legal": "Legal",
+      "description": "Only have it occasionally.    "
+    },
+    "Wine": {
+      "name": "Wine",
+      "legal": "Legal",
+      "description": "Very dry wine is legal. See Wines for more information on dry wines.   "
+    }
+  },
+  "fi": {
+    "Acorn Squash": {
+      "name": "Acorn Squash",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Agar-agar": {
+      "name": "Agar-agar",
+      "legal": "Illegal",
+      "description": "Sisältää polysakkarideja. Katso wikipediasta: https://fi.wikipedia.org/wiki/Agar"
+    },
+    "agavesiirappi": {
+      "name": "agavesiirappi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "levä": {
+      "name": "levä",
+      "legal": "Illegal",
+      "description": "Emme käytä leviä (Spirulina) koska IBD vaikuttaa immuunijärjestelmään ja levät voivat pahentaa jo häiriintynyttä immuunijärjestelmää."
+    },
+    "Maustepippuri": {
+      "name": "Maustepippuri",
+      "legal": "Legal",
+      "description": "Kunhan et vain käyttämällä maustepippuri Keittokemikaalina mauste se on laillista. Älä käytä öljyä katso Allspice"
+    },
+    "Mantelivoi": {
+      "name": "Mantelivoi",
+      "legal": "Legal",
+      "description": "Mantelivoi ilman sokeria on sallittu."
+    },
+    "mantelimaito": {
+      "name": "mantelimaito",
+      "legal": "Legal",
+      "description": "Kokeilu sallittu kun henkilö noudattanut ruokavaliota 6 kuukautta."
+    },
+    "manteliöljy": {
+      "name": "manteliöljy",
+      "legal": "Legal",
+      "description": ""
+    },
+    "manteli": {
+      "name": "manteli",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Aloe Vera": {
+      "name": "Aloe Vera",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Amaranth jauho": {
+      "name": "Amaranth jauho",
+      "legal": "Illegal",
+      "description": "Amaranth on viljan korvike ja sisältää tärkkelystä, joten se ei ole sallittua."
+    },
+    "anjovis": {
+      "name": "anjovis",
+      "legal": "Legal",
+      "description": ""
+    },
+    "omenamehu (sokeroimaton)": {
+      "name": "omenamehu (sokeroimaton)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "omena": {
+      "name": "omena",
+      "legal": "Legal",
+      "description": ""
+    },
+    "aprikoosi": {
+      "name": "aprikoosi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Arrowjuuri": {
+      "name": "Arrowjuuri",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Artisokka (ranska)": {
+      "name": "Artisokka (ranska)",
+      "legal": "Legal",
+      "description": "Ne ovat vihreitä artisokat että olet höyryä sitten pulahtaa lehdet sitruuna voin ja kaavi pois hampaita. Heillä on syötävä sydämet ja syötäväksi kelpaamattomat kuristimen."
+    },
+    "Artisokka (Jerusalem)": {
+      "name": "Artisokka (Jerusalem)",
+      "legal": "Illegal",
+      "description": "Kyseessä on mukula, ja ne eivät ole sallittuja"
+    },
+    "Askorbiinihappo": {
+      "name": "Askorbiinihappo",
+      "legal": "Legal",
+      "description": "Pitäisi olla vain C-vitamiinia"
+    },
+    "Asiago juusto": {
+      "name": "Asiago juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Parsa": {
+      "name": "Parsa",
+      "legal": "Legal",
+      "description": "Laillinen tuoreena tai pakastettuna. Tölkitettyjä vihanneksia ei sallita."
+    },
+    "aspartaami": {
+      "name": "aspartaami",
+      "legal": "Legal",
+      "description": "Kun oire vapaa, yksi aspartaami pitoinen juoma sallitaan viikossa - Elaine. Mutta katso Aspartaami tietopankista ensin: http://btvc.webfactional.com/knowledge-base/detail/aspartame/"
+    },
+    "Asparagiinihappo": {
+      "name": "Asparagiinihappo",
+      "legal": "Legal",
+      "description": ""
+    },
+    "kurjenherne": {
+      "name": "kurjenherne",
+      "legal": "Illegal",
+      "description": "sisältää polysakkarideja"
+    },
+    "avokadoöljy": {
+      "name": "avokadoöljy",
+      "legal": "Legal",
+      "description": "Hyvä majoneeseja ja salaattikastikkeita varten, mutta ei kestä hyvin lämpöä."
+    },
+    "avokado": {
+      "name": "avokado",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Pekoni": {
+      "name": "Pekoni",
+      "legal": "Legal",
+      "description": "Savustettu pekoni, joka on kypsennetty hyvin rapeaksi on sallittu kerran viikossa. Sokeritonta pekonia on olemassa, ja jos löydät sokeritonta pekonia, sinun ei tarvitse rajoittaa kulutusta kerran viikkoon. Yleensä vähä-suolaiset vaihtoehdot eivät sisällä sokeria, mutta katso tuoteselosteet tarkasti."
+    },
+    "leivinhiiva": {
+      "name": "leivinhiiva",
+      "legal": "Illegal",
+      "description": "Saccharomyces cerevisiae on leivontahiiva ja on laitonta."
+    },
+    "Leivinjauhe": {
+      "name": "Leivinjauhe",
+      "legal": "Illegal",
+      "description": "Sisältää tärkkelystä (useimmiten maissitärkkelys) ja muita laittomia aineita."
+    },
+    "Ruokasooda": {
+      "name": "Ruokasooda",
+      "legal": "Legal",
+      "description": ""
+    },
+    "balsamiviinietikka": {
+      "name": "balsamiviinietikka",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "banaani": {
+      "name": "banaani",
+      "legal": "Legal",
+      "description": "Oltava niin kypsiä että mustia pilkkuja on ilmestynyt kuoreen."
+    },
+    "Pau d'Arco tee": {
+      "name": "Pau d'Arco tee",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Ohra": {
+      "name": "Ohra",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Basilika": {
+      "name": "Basilika",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Laakerinlehti": {
+      "name": "Laakerinlehti",
+      "legal": "Legal",
+      "description": ""
+    },
+    "papujauhot": {
+      "name": "papujauhot",
+      "legal": "Illegal",
+      "description": "Älä käytä valmiiksi tehtyjä papu tai linssijauhoja, koska niitä ei todennäköisesti liuotettu ennen jauhoksi jauhamista."
+    },
+    "Pavunidut": {
+      "name": "Pavunidut",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Siitepöly": {
+      "name": "Siitepöly",
+      "legal": "Illegal",
+      "description": "Siitepöly ärsyttää vahingoittunutta ruuansulatusta. Puhdas, kirkas ja pastöroitu hunaja on ok. Sameaa hunajaa (joka sisältää edelleen siitepölyä) tulisi välttää - Sheila"
+    },
+    "naudanliha": {
+      "name": "naudanliha",
+      "legal": "Legal",
+      "description": "Tuore ja pakastettu on sallittua, kunhan mitään ei ole lisätty prosessoinnin aikana. Tarkista tuoteselosteet tarkasti."
+    },
+    "Olut": {
+      "name": "Olut",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "punajuuri": {
+      "name": "punajuuri",
+      "legal": "Legal",
+      "description": ""
+    },
+    "marjat": {
+      "name": "marjat",
+      "legal": "Legal",
+      "description": "Kaikki marjat ovat laillisia."
+    },
+    "Okra": {
+      "name": "Okra",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "karvaskurkku": {
+      "name": "karvaskurkku",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "musta papu": {
+      "name": "musta papu",
+      "legal": "Legal",
+      "description": "Voidaan kokeilla, kun ei ole oireita. Kuivatut palkokasvit tulee valmistaa Breaking the Vicious Cycle kirjan ohjeiden mukaisesti."
+    },
+    "lehmänpapu / pitkäpapu": {
+      "name": "lehmänpapu / pitkäpapu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Retikka": {
+      "name": "Retikka",
+      "legal": "Legal",
+      "description": "Sisältää paljon kuitua joten kokeiltava varovaisesti."
+    },
+    "Sinihomejuusto": {
+      "name": "Sinihomejuusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "pinaattikiinankaali": {
+      "name": "pinaattikiinankaali",
+      "legal": "Legal",
+      "description": "Pinaattikiinankaali on kuin kaali ja on laillista, mutta sinun ei tulisi käyttää kaalin sukuun kuuluvaa vihannesta, ennen kuin voit jo selkeästi paremmin. Toisinsanoen älä käytä jos sinulla on edelleen ripulia ja kaasua."
+    },
+    "Bologna": {
+      "name": "Bologna",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Liemikuutiot": {
+      "name": "Liemikuutiot",
+      "legal": "Illegal",
+      "description": "Liemikuutiot ja instat keitto jauheet eivät ole sallittuja."
+    },
+    "Bourbon": {
+      "name": "Bourbon",
+      "legal": "Legal",
+      "description": "Vain silloin tällöin."
+    },
+    "Brandy": {
+      "name": "Brandy",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "brasilialainen pähkinä": {
+      "name": "brasilialainen pähkinä",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Brick juusto": {
+      "name": "Brick juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää vapaasti."
+    },
+    "brie juusto": {
+      "name": "brie juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Parsakaali": {
+      "name": "Parsakaali",
+      "legal": "Legal",
+      "description": ""
+    },
+    "ruusukaali": {
+      "name": "ruusukaali",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Tattari": {
+      "name": "Tattari",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "bulgur": {
+      "name": "bulgur",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "takiaisen juuri": {
+      "name": "takiaisen juuri",
+      "legal": "Illegal",
+      "description": "Se sisältää inuliinia (FOS) ja kasvigeeliä."
+    },
+    "voi": {
+      "name": "voi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "voipapu": {
+      "name": "voipapu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "piimä": {
+      "name": "piimä",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "myskikurpitsa": {
+      "name": "myskikurpitsa",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kaali": {
+      "name": "Kaali",
+      "legal": "Legal",
+      "description": "Sinun ei tulisi käyttää kaalin sukuun kuuluvaa vihannesta, ennen kuin voit jo selkeästi paremmin. Toisinsanoen älä käytä jos sinulla on edelleen ripulia ja kaasua."
+    },
+    "Camembert juusto": {
+      "name": "Camembert juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Canellini pavut": {
+      "name": "Canellini pavut",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Kalasäilykkeet": {
+      "name": "Kalasäilykkeet",
+      "legal": "Legal",
+      "description": "Öljyssä tai vedessä purkitetut ovat laillisia, mutta tarkasta tuoteselosteet tarkasti."
+    },
+    "säilykehedelmät": {
+      "name": "säilykehedelmät",
+      "legal": "Illegal",
+      "description": "Hedelmät jotka on purkitettu omassa mehussa ovat sallittuja."
+    },
+    "vihannessäilykkeet": {
+      "name": "vihannessäilykkeet",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "rypsiöljy": {
+      "name": "rypsiöljy",
+      "legal": "Legal",
+      "description": "Laillinen mutta ei suositeltava."
+    },
+    "verkkomeloni": {
+      "name": "verkkomeloni",
+      "legal": "Legal",
+      "description": ""
+    },
+    "kapris": {
+      "name": "kapris",
+      "legal": "Legal",
+      "description": ""
+    },
+    "johanneksenleipäpuu": {
+      "name": "johanneksenleipäpuu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "karrageeni": {
+      "name": "karrageeni",
+      "legal": "Illegal",
+      "description": "Karrageeni on merilevä ja sisältää paljon polysakkarideja, joten on siis laiton."
+    },
+    "Porkkana": {
+      "name": "Porkkana",
+      "legal": "Legal",
+      "description": ""
+    },
+    "cashew": {
+      "name": "cashew",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kukkakaali": {
+      "name": "Kukkakaali",
+      "legal": "Legal",
+      "description": "Kukkakaali on joskus hankala ruuansulatukselle ja sitä tulisi kokeilla varovaisesti, vasta kun edistystä on ollut havaittavissa ruokavaliolla."
+    },
+    "Mukulaselleri": {
+      "name": "Mukulaselleri",
+      "legal": "Legal",
+      "description": "Hyvin kuituinen, vaikka ei välttämättä vaikuta siltä. Kokeile varovaisesti ja pienissä määrissä."
+    },
+    "Sellerin juuri": {
+      "name": "Sellerin juuri",
+      "legal": "Legal",
+      "description": "Hyvin kuituinen, vaikka ei välttämättä vaikuta siltä. Kokeile varovaisesti ja pienissä määrissä."
+    },
+    "Selleri": {
+      "name": "Selleri",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Selluloosa (lisäravinteissa)": {
+      "name": "Selluloosa (lisäravinteissa)",
+      "legal": "Legal",
+      "description": "Selluloosa lisäravinteissa on sallittua ja käytännössä mahdotonta välttää."
+    },
+    "selluloosakumi": {
+      "name": "selluloosakumi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Murot": {
+      "name": "Murot",
+      "legal": "Illegal",
+      "description": "Katso linkki laillista muroreseptiä varten: http://www.scdrecipe.com/recipes/r_006_00407.php"
+    },
+    "Lehtimangoldi": {
+      "name": "Lehtimangoldi",
+      "legal": "Legal",
+      "description": "Lehtimangoldi muistuttaa pinaattia ja selleriä joten on laillinen. Se muistuttaa minua myös hieman kaali vihannesten edustajista, joten käytä varoen jos turvotus on vielä ongelma. - Elaine"
+    },
+    "Cheddar-juusto": {
+      "name": "Cheddar-juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää vapaasti."
+    },
+    "Juusto": {
+      "name": "Juusto",
+      "legal": "Legal",
+      "description": ""
+    },
+    "kirimoija": {
+      "name": "kirimoija",
+      "legal": "Legal",
+      "description": "Tunnetaan myös nimellä annoona tai Sharifa."
+    },
+    "kirsikat": {
+      "name": "kirsikat",
+      "legal": "Legal",
+      "description": ""
+    },
+    "kastanjajauhot": {
+      "name": "kastanjajauhot",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kastanjat": {
+      "name": "kastanjat",
+      "legal": "Legal",
+      "description": "Voidaan kokeilla kun oireita ei enää ole. Jos ostat kuivia kastanjoita, liuota ja kypsennä ne ensin pehmeiksi."
+    },
+    "Chevre-juusto": {
+      "name": "Chevre-juusto",
+      "legal": "Illegal",
+      "description": "Chevre-juusto on laitonta, mutta voit seuraavaa ohjetta seuraamalla tehdä vastaavaa juustoa: http://uclbs.org/recipes/dairy/suegoatcheese.php"
+    },
+    "Purukumi": {
+      "name": "Purukumi",
+      "legal": "Illegal",
+      "description": "Saattaa sisältää laittomia sokerin korvikkeita, kuten aspartaamia ja ksylitolia"
+    },
+    "kikherne": {
+      "name": "kikherne",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sikurijuuri": {
+      "name": "sikurijuuri",
+      "legal": "Illegal",
+      "description": "Sikurijuuri ei ole laillista. Ensimmäisessä kirjassani ehdotin että sitä voitaisiin käyttää kahvipapujen sijaan. Sitemmin olen oppinut että ne sisältävät runsaasti frukto-oligosakkarideja."
+    },
+    "chlorella": {
+      "name": "chlorella",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Suklaa": {
+      "name": "Suklaa",
+      "legal": "Illegal",
+      "description": "Dr. Haas on neuvonut olemaan käyttämättä suklaata tai kaakaota, eikä hän ole huolestunut vain sokerista."
+    },
+    "Korianteri ": {
+      "name": "Korianteri ",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kaneli": {
+      "name": "Kaneli",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Sitruunahappo": {
+      "name": "Sitruunahappo",
+      "legal": "Legal",
+      "description": "Sitruunahappo lisäaineena on laillinen."
+    },
+    "Soodavesi": {
+      "name": "Soodavesi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kaakaojauhe": {
+      "name": "Kaakaojauhe",
+      "legal": "Illegal",
+      "description": "Dr. Haas neuvoi olemaan käyttämättä kaakaota tai suklaata, ja se pitää edelleen paikkaansa. Hän ei ollut huolestunut vain näiden sisältämästä sokerista."
+    },
+    "kookospähkinä": {
+      "name": "kookospähkinä",
+      "legal": "Legal",
+      "description": "Tuore ja makeuttamaton kookoshiutale ja kookosjauho ovat laillisia"
+    },
+    "Kookosmaito": {
+      "name": "Kookosmaito",
+      "legal": "Legal",
+      "description": "Voidaan kokeilla kun henkilö on ollut ruokavaliolla 6 kuukautta."
+    },
+    "Kookosöljy": {
+      "name": "Kookosöljy",
+      "legal": "Legal",
+      "description": "Kestää kuumuutta hyvin ja on hyvä paistamiseen ja ruoanlaittoon."
+    },
+    "kahvi": {
+      "name": "kahvi",
+      "legal": "Legal",
+      "description": "Kahvista tulisi tehdä hyvin laimeaa. Pikakahvi ei ole sallittu."
+    },
+    "pikakahvi": {
+      "name": "pikakahvi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Colby juusto": {
+      "name": "Colby juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää vapaasti."
+    },
+    "Rehuydinkaali": {
+      "name": "Rehuydinkaali",
+      "legal": "Legal",
+      "description": "Kuuluu kaaleihin joten esitellään myöhään ruokavaliossa."
+    },
+    "Liköörit": {
+      "name": "Liköörit",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Mehutiivisteet": {
+      "name": "Mehutiivisteet",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Maissi": {
+      "name": "Maissi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Maissiöljy": {
+      "name": "Maissiöljy",
+      "legal": "Legal",
+      "description": ""
+    },
+    "maissisiirappi": {
+      "name": "maissisiirappi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Maissitärkkelys": {
+      "name": "Maissitärkkelys",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Raejuusto": {
+      "name": "Raejuusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Kesäkurpitsa": {
+      "name": "Kesäkurpitsa",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Karpalomehu": {
+      "name": "Karpalomehu",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kerma": {
+      "name": "Kerma",
+      "legal": "Illegal",
+      "description": "Se on laitonta sillä sisältää laktoosia. Kermaa voidaan lisätä maitoon, SCD™ 24h jogurtin valmistamista varten, sillä laktoosi pilkkoutuu happatamisen aikana. Kermassa on vähemmän laktoosia kuin maidossa, ja mitä enemmän siinä on rasvaa sitä vähemmän siinä on laktoosia."
+    },
+    "Kermajuusto": {
+      "name": "Kermajuusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Viinikivi": {
+      "name": "Viinikivi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Kroskarmelloosi": {
+      "name": "Kroskarmelloosi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kurkku": {
+      "name": "kurkku",
+      "legal": "Legal",
+      "description": ""
+    },
+    "syklamaatti": {
+      "name": "syklamaatti",
+      "legal": "Legal",
+      "description": ""
+    },
+    "taatelisokeri": {
+      "name": "taatelisokeri",
+      "legal": "Illegal",
+      "description": "Voidaan kokeilla kun henkilö on ollut ruokavaliolla jonkin aikaa ja hänellä ei ole oireita, mutta ei ole suositeltavaa."
+    },
+    "taateli": {
+      "name": "taateli",
+      "legal": "Legal",
+      "description": "Medjool- ja California-taatelit ovat sallittuja. Niiden täytyy olla ilmavasti pakkattuja ja niissä ei saa olla mitään lisättyä."
+    },
+    "kofeiinittomat Tuotteet": {
+      "name": "kofeiinittomat Tuotteet",
+      "legal": "Illegal",
+      "description": "Kofeiinittomat tuotteet eivät ole laillisia sillä tuotantopressissa niihin on voitu lisätä kyseenalaisia ainesosia tai ovat käyneet läpi haitallisia reaktioita."
+    },
+    "dekstroosi": {
+      "name": "dekstroosi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Kuiva Rahka tuorejuusto (DCCC)": {
+      "name": "Kuiva Rahka tuorejuusto (DCCC)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Durumvehnäjauho": {
+      "name": "Durumvehnäjauho",
+      "legal": "Illegal",
+      "description": "Kyseessä on vehnän sukulainen."
+    },
+    "Echinacea": {
+      "name": "Echinacea",
+      "legal": "Legal",
+      "description": ""
+    },
+    "edamjuusto": {
+      "name": "edamjuusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Munakoiso": {
+      "name": "Munakoiso",
+      "legal": "Legal",
+      "description": ""
+    },
+    "kananmuna": {
+      "name": "kananmuna",
+      "legal": "Legal",
+      "description": ""
+    },
+    "etanoli": {
+      "name": "etanoli",
+      "legal": "Legal",
+      "description": "Etanoli on alkoholi, jota löytyy esim ginistä, vodkasta yms."
+    },
+    "sokeriruo'on kuivattu mehu": {
+      "name": "sokeriruo'on kuivattu mehu",
+      "legal": "Illegal",
+      "description": "Hieno nimi sokerille."
+    },
+    "Ezekiel Leipä": {
+      "name": "Ezekiel Leipä",
+      "legal": "Illegal",
+      "description": "Sisältää lukuisia laittomia ainesosia kuten riisilese, FOS, Bifidus ja pellavansiemen."
+    },
+    "härkäpapu": {
+      "name": "härkäpapu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Sarviapila": {
+      "name": "Sarviapila",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Fetajuusto": {
+      "name": "Fetajuusto",
+      "legal": "Illegal",
+      "description": "Fetaa saa käyttää kun oireet ovat olleet poissa 6 kuukauden ajan, mutta vain pienissä määrissä."
+    },
+    "viikunat": {
+      "name": "viikunat",
+      "legal": "Legal",
+      "description": ""
+    },
+    "hasselpähkinä": {
+      "name": "hasselpähkinä",
+      "legal": "Legal",
+      "description": "Pähkinöitä tulisi käyttää vain jauhoina ruuanlaitossa, kunnes ripuli on hellittänyt."
+    },
+    "kala": {
+      "name": "kala",
+      "legal": "Legal",
+      "description": "Tuore ja pakastettu sallitaan, kunhan prosessoinnin aikana ei ole lisätty mitään. Lue tuoteselosteet huolella."
+    },
+    "pellavansiemenet": {
+      "name": "pellavansiemenet",
+      "legal": "Illegal",
+      "description": "Katso pellavansiemen ja pellavansiemenöljy: http://btvc.webfactional.com/knowledge-base/detail/flax-seed-and-flax-seed-oil-/"
+    },
+    "Pellavansiemenöljy": {
+      "name": "Pellavansiemenöljy",
+      "legal": "Legal",
+      "description": "Katso pellavansiemen ja pellavansiemenöljy: http://btvc.webfactional.com/knowledge-base/detail/flax-seed-and-flax-seed-oil-/"
+    },
+    "Jauhot": {
+      "name": "Jauhot",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "FOS": {
+      "name": "FOS",
+      "legal": "Illegal",
+      "description": "Tunnetaan myös nimellä frukto-oligosakkaridi. Katso FOS \"Knowledge Base\" osiosta."
+    },
+    "riistalintu": {
+      "name": "riistalintu",
+      "legal": "Legal",
+      "description": "Kaikki lajit ovat sallittuja kuten kalkkuna, kana, ankka, hanhi ja fasaani."
+    },
+    "appelsiinimehu (tiiviste, sokeroimaton)": {
+      "name": "appelsiinimehu (tiiviste, sokeroimaton)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "fruktoosi": {
+      "name": "fruktoosi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "hedelmäsäilykkeet": {
+      "name": "hedelmäsäilykkeet",
+      "legal": "Legal",
+      "description": "Hedelmät jotka on purkitettu omassa mehussa ovat sallittuja."
+    },
+    "garbanzo pavut": {
+      "name": "garbanzo pavut",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Garfava jauhot": {
+      "name": "Garfava jauhot",
+      "legal": "Illegal",
+      "description": "Valmistettu Garbanzo ja Fava pavuista, kumpikaan ei ole laillinen."
+    },
+    "Valkosipuli": {
+      "name": "Valkosipuli",
+      "legal": "Legal",
+      "description": "Käytä tuoretta valkosipulia. Valkosipulijauheissa on usein tärkkelystä lisättynä paakkuuntumisenestoaineena. Voit tehdä myös omaa valkosipulijauhetta, kuivattamalla ja jauhamalla tuoretta valkosipulia."
+    },
+    "Gelatiini (maustamaton)": {
+      "name": "Gelatiini (maustamaton)",
+      "legal": "Legal",
+      "description": "Kyseessä on denaturoitu proteiini, joka on menettänyt tertiäärisen rakenteensa. Ei ole kovin hyvä proteiininlähde."
+    },
+    "ghee": {
+      "name": "ghee",
+      "legal": "Legal",
+      "description": "Kyseessä on kirkastettu voi."
+    },
+    "Gin": {
+      "name": "Gin",
+      "legal": "Legal",
+      "description": "Vain silloin tällöin."
+    },
+    "Inkivääri": {
+      "name": "Inkivääri",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Gjetost juusto": {
+      "name": "Gjetost juusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "glukoosi karkki": {
+      "name": "glukoosi karkki",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "glyseriini": {
+      "name": "glyseriini",
+      "legal": "Legal",
+      "description": ""
+    },
+    "glyseroli": {
+      "name": "glyseroli",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Goatein": {
+      "name": "Goatein",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "gorgonzola juusto": {
+      "name": "gorgonzola juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "gouda juusto": {
+      "name": "gouda juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "glukoosi": {
+      "name": "glukoosi",
+      "legal": "Illegal",
+      "description": "Sisältää usein muitakin sokereita kuin vain glukoosia."
+    },
+    "Greippimehu": {
+      "name": "Greippimehu",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Greippi": {
+      "name": "Greippi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "greippimehu (sokeroimaton)": {
+      "name": "greippimehu (sokeroimaton)",
+      "legal": "Illegal",
+      "description": "Ainoastaan laillinen tuoreena. Pakastettuna tai purkitettuna ei ole laillista. Mehu tulisi laimentaa ennen juomista."
+    },
+    "viinirypäleet": {
+      "name": "viinirypäleet",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Rypälesiemenöljy": {
+      "name": "Rypälesiemenöljy",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Vihreä tee": {
+      "name": "Vihreä tee",
+      "legal": "Legal",
+      "description": "Enintään 2 kupillista päivässä."
+    },
+    "Gruyère juusto": {
+      "name": "Gruyère juusto",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Guarkumi": {
+      "name": "Guarkumi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kumit": {
+      "name": "kumit",
+      "legal": "Illegal",
+      "description": "Kaikki kumit ovat laittomia."
+    },
+    "kinkku (prosessoimaton)": {
+      "name": "kinkku (prosessoimaton)",
+      "legal": "Legal",
+      "description": "Laillista vain jos käsitelty vain suolalla. Jos sisältää sokeria ei ole laillinen: http://btvc.webfactional.com/knowledge-base/detail/ham/"
+    },
+    "Valkoinen papu": {
+      "name": "Valkoinen papu",
+      "legal": "Legal",
+      "description": "Kuivatut palkokasvit tulee valmistaa Breaking the Vicious Cycle kirjan ohjeiden mukaan."
+    },
+    "Havarti juusto": {
+      "name": "Havarti juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää vapaasti."
+    },
+    "Hasselpähkinä": {
+      "name": "Hasselpähkinä",
+      "legal": "Legal",
+      "description": "Pähkinöitä tulisi käyttää vain jauhoina ruuanlaitossa, kunnes ripuli on hellittänyt."
+    },
+    "Hamppuproteiinijauhe": {
+      "name": "Hamppuproteiinijauhe",
+      "legal": "illegal",
+      "description": ""
+    },
+    "Hampun siemen": {
+      "name": "Hampun siemen",
+      "legal": "illegal",
+      "description": ""
+    },
+    "kotitekoinen scd-jogurtti": {
+      "name": "kotitekoinen scd-jogurtti",
+      "legal": "Legal",
+      "description": "http://breakingtheviciouscycle.info/legal/detail/homemade-yogurt/"
+    },
+    "Hunaja": {
+      "name": "Hunaja",
+      "legal": "Legal",
+      "description": ""
+    },
+    "": {
+      "name": "",
+      "legal": "Legal",
+      "description": ""
+    },
+    "piparjuuri": {
+      "name": "piparjuuri",
+      "legal": "Legal",
+      "description": ""
+    },
+    "hot dog": {
+      "name": "hot dog",
+      "legal": "Illegal",
+      "description": "Kaupallisesti tuotetut hot dogit ovat yleensä laittomia, mutta tässä Marilynin laillinen resepti: http://www.scdiet.net/marilyn%27s%20recipe%203.htm "
+    },
+    "hydrolysoitu proteiini": {
+      "name": "hydrolysoitu proteiini",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "jäätelö": {
+      "name": "jäätelö",
+      "legal": "Illegal",
+      "description": "Teollisesti valmistetut jäätelöt eivät ole laillisia. Kuitenkin on olemassa lukuisia hyviä kotitekoisia jäätelöreseptejä."
+    },
+    "inositoli": {
+      "name": "inositoli",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "inuliini": {
+      "name": "inuliini",
+      "legal": "Illegal",
+      "description": "Inuulini on frukto-oligosakkaridi ja on laiton. Katso inuliini: http://btvc.webfactional.com/knowledge-base/detail/inulin/"
+    },
+    "rautalisät": {
+      "name": "rautalisät",
+      "legal": "Illegal",
+      "description": "Älä käytä vitamiineja joissa on rautaa. Ne aiheuttavat infektioita etenkin ruuansulatus elimissä. Älä ota suullista, rautaa jos vain pystyt. Syö maksa pateeta ja jos pidät maksasta, syö sitä vähintään kerran viikossa."
+    },
+    "isoglukoosia": {
+      "name": "isoglukoosia",
+      "legal": "Illegal",
+      "description": "Se on uusi makeutusaine. Katso isoglukoosi: http://btvc.webfactional.com/knowledge_base/detail/isoglucose/"
+    },
+    "raakasokeri": {
+      "name": "raakasokeri",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "jalapeno": {
+      "name": "jalapeno",
+      "legal": "Legal",
+      "description": ""
+    },
+    "jicama": {
+      "name": "jicama",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "mehutiiviste": {
+      "name": "mehutiiviste",
+      "legal": "Illegal",
+      "description": "Mehu tiivisteestä on yleensä laitonta, koska siihen on usein lisätty sokeria."
+    },
+    "Lehtikaali": {
+      "name": "Lehtikaali",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kefiiri ": {
+      "name": "Kefiiri ",
+      "legal": "Illegal",
+      "description": "Katso Kefir"
+    },
+    "Ketsuppi": {
+      "name": "Ketsuppi",
+      "legal": "Illegal",
+      "description": "Kaupallisesti valmistettu ketsuppi sisältää sokeria ja ei ole sallittua. Ketsuppi resepti löytyy Breaking the Vicious Cycle kirjan gourmet osasta."
+    },
+    "Kidney-pavut": {
+      "name": "Kidney-pavut",
+      "legal": "Legal",
+      "description": "Kaikkia tyyppejä voidaan kokeilla kun oireita ei enää ole. Kuivatut palkokasvit tulee valmistaa Breaking the Vicious Cycle kirjan ohjeiden mukaisesti."
+    },
+    "Kimchi": {
+      "name": "Kimchi",
+      "legal": "Legal",
+      "description": "Katso Kimchi: http://btvc.webfactional.com/knowledge-base/detail/kimchi/"
+    },
+    "kiivi": {
+      "name": "kiivi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kyssäkaali": {
+      "name": "Kyssäkaali",
+      "legal": "Illegal",
+      "description": "Katso kyssäkaali: http://btvc.webfactional.com/knowledge-base/detail/kohlrabi/"
+    },
+    "konjakki": {
+      "name": "konjakki",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Kudzu": {
+      "name": "Kudzu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Kuzu": {
+      "name": "Kuzu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Kumkvatit": {
+      "name": "Kumkvatit",
+      "legal": "Legal",
+      "description": ""
+    },
+    "KyoGreen jauhe": {
+      "name": "KyoGreen jauhe",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "L-Teaniini": {
+      "name": "L-Teaniini",
+      "legal": "Legal",
+      "description": "Se on aminohappo ja kunhan se on puhtaassa muodossa ilman laittomia lisäaineita se on laillinen. Kuten kaikkin uusien aineiden kanssa, aloita varovasti. -Seth (vapaasti käännetty englannista)"
+    },
+    "Lactaid Maito": {
+      "name": "Lactaid Maito",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Laktoosi Hydrolysoitu maito": {
+      "name": "Laktoosi Hydrolysoitu maito",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "lammas": {
+      "name": "lammas",
+      "legal": "Legal",
+      "description": "Tuore ja pakastettu ovat laillisia kunhan mitään ei ole lisätty prosessoinnin aikana. Tarkista tuoteselosteet tarkasti."
+    },
+    "lesitiini": {
+      "name": "lesitiini",
+      "legal": "Legal",
+      "description": "Johdettu soijasta (laiton). Kananmunissa on paljon hyvää lesitiiniä ja Elaine ei näe mitään syytä miksi lesitiiniä pitäisi käyttää lisäravinteena."
+    },
+    "Purjo": {
+      "name": "Purjo",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Sitruuna ": {
+      "name": "Sitruuna ",
+      "legal": "Legal",
+      "description": ""
+    },
+    "linssit": {
+      "name": "linssit",
+      "legal": "Legal",
+      "description": "Kuivatut palkokasvit tulee valmista Breaking the Vicious Cycle kirjan mukaisesti."
+    },
+    "Lehtisalaatti": {
+      "name": "Lehtisalaatti",
+      "legal": "Legal",
+      "description": "Kaikki eri salaatit ovat sallittuja."
+    },
+    "leusiini": {
+      "name": "leusiini",
+      "legal": "Legal",
+      "description": "(Lisäravinteen ainesosa)"
+    },
+    "Lakritsi": {
+      "name": "Lakritsi",
+      "legal": "Illegal",
+      "description": "Lakritsi on \"demulcent\" ja laksatiivi. Katso demulcent ja lakritsi: http://btvc.webfactional.com/knowledge-base/detail/demulcents/ http://btvc.webfactional.com/knowledge-base/detail/licorice/"
+    },
+    "ligniini": {
+      "name": "ligniini",
+      "legal": "Illegal",
+      "description": "Ligniinin jauhaminen ei estä tiettyjä mikro-organismeja käyttämästä sitä ravinnokseen. Päinvastoin ligniinin jauhaminen saattaa nopeuttaa mikro-organismien lisääntymistä."
+    },
+    "Limanpapu": {
+      "name": "Limanpapu",
+      "legal": "Legal",
+      "description": "Kuivatut ja tuoreet ovat sallittuja. Kuivatut palkokasvit täytyy valmistaa Breaking the Vicious Cycle kirjan ohjeiden mukaisesti."
+    },
+    "Voipapu": {
+      "name": "Voipapu",
+      "legal": "Legal",
+      "description": "Kuivatut ja tuoreet ovat sallittuja. Kuivatut palkokasvit täytyy valmistaa Breaking the Vicious Cycle kirjan ohjeiden mukaisesti."
+    },
+    "Limburger juusto": {
+      "name": "Limburger juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "limetti": {
+      "name": "limetti",
+      "legal": "Legal",
+      "description": ""
+    },
+    "liköörit": {
+      "name": "liköörit",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "nestemäinen Clorychlorophyll": {
+      "name": "nestemäinen Clorychlorophyll",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Macadamiapähkinät": {
+      "name": "Macadamiapähkinät",
+      "legal": "Legal",
+      "description": "Pähkinöitä tulisi käyttää vain jauhoina ruuanlaitossa, kunnes ripuli on hellittänyt."
+    },
+    "macadamiaöljy": {
+      "name": "macadamiaöljy",
+      "legal": "Legal",
+      "description": "Kestää hyvin lämpöä."
+    },
+    "magnesiumsitraatti": {
+      "name": "magnesiumsitraatti",
+      "legal": "Legal",
+      "description": "(Lisäravinteen ainesosana)"
+    },
+    "magnesiumstearaatti": {
+      "name": "magnesiumstearaatti",
+      "legal": "Legal",
+      "description": ""
+    },
+    "maltitoli": {
+      "name": "maltitoli",
+      "legal": "Illegal",
+      "description": "Sorbitoli, mannitoli ja ksylitoli ovat kaikki sokerialkoholeja ja eivät ole SCD™ ruokavalion mukaan laillisia. Ne ovat sokereita joita ihmisen keho ei pysty käsittelemään. Usein niin sanotut sokerittomat tuotteet sisältävät näitä, ja nämä sokerit ruokkivat ruuansulatuksen bakteereja."
+    },
+    "maltodekstriini": {
+      "name": "maltodekstriini",
+      "legal": "Illegal",
+      "description": "Maltodesktriini on pahin pieni molekyylisistä sokereista. Se koostuu hyvin lyhyestä glukoosi ketjusta (valmistettu tärkkelyksestä). Mahdollisuudet sen sulattamiseen ovat käytännössä olemattomat. Sen tuloksena se ruokkii bakteereja, ja sen rakenteen vuoksi Elainen mielestä se on pahempi kuin laktoosi."
+    },
+    "Manchegojuusto": {
+      "name": "Manchegojuusto",
+      "legal": "Legal",
+      "description": ""
+    },
+    "mango": {
+      "name": "mango",
+      "legal": "Legal",
+      "description": ""
+    },
+    "mannitoli": {
+      "name": "mannitoli",
+      "legal": "Illegal",
+      "description": "Sorbitoli, mannitoli ja ksylitoli ovat kaikki sokerialkoholeja ja eivät ole SCD™ ruokavalion mukaan laillisia. Ne ovat sokereita joita ihmisen keho ei pysty käsittelemään. Usein niin sanotut sokerittomat tuotteet sisältävät näitä, ja nämä sokerit ruokkivat ruuansulatuksen bakteereja."
+    },
+    "vaahterasiirappi": {
+      "name": "vaahterasiirappi",
+      "legal": "Illegal",
+      "description": "Vaahterasiirappi on disakkaridi."
+    },
+    "Margariini": {
+      "name": "Margariini",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "vaahtokaramelli": {
+      "name": "vaahtokaramelli",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Sima": {
+      "name": "Sima",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Lihat": {
+      "name": "Lihat",
+      "legal": "Legal",
+      "description": "Kaikki tuoreet ja pakastetut lihat ovat laillisia, kunhan niissä ei ole lisäaineita tai niitä ei ole prosessoitu. Laillisia ovat esimerkiksi, nauta, sika, maksa ja munuainen."
+    },
+    "Liha (säilyke)": {
+      "name": "Liha (säilyke)",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Liha (käsitelty)": {
+      "name": "Liha (käsitelty)",
+      "legal": "Illegal",
+      "description": "Esimerkiksi hot dogit"
+    },
+    "Melatoniini": {
+      "name": "Melatoniini",
+      "legal": "Illegal",
+      "description": "Suurimmassa osassa on lisäaineita kuten tärkkelystä, laktoosia ja sokeria"
+    },
+    "Meloni": {
+      "name": "Meloni",
+      "legal": "Legal",
+      "description": "Kaikki tyypit ovat laillisia"
+    },
+    "Maito": {
+      "name": "Maito",
+      "legal": "Illegal",
+      "description": "Kaikki nestemäiset maitotuotteet ovat laittomia."
+    },
+    "Hirssi": {
+      "name": "Hirssi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "miso": {
+      "name": "miso",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Melassi": {
+      "name": "Melassi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Monterey Jack juusto": {
+      "name": "Monterey Jack juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Mozzarella juusto": {
+      "name": "Mozzarella juusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Natriumglutamaatti": {
+      "name": "Natriumglutamaatti",
+      "legal": "Illegal",
+      "description": "Riipumatta siitä onko se SCD™ laillista vai ei, meidän tulisi yrittää välttää sitä. Natriumgliutamaatti voi olla vahva neuromyrkky."
+    },
+    "geeliytyvät Yrtit": {
+      "name": "geeliytyvät Yrtit",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Geeliytyvä Polysakkaridi": {
+      "name": "Geeliytyvä Polysakkaridi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Muenster juusto": {
+      "name": "Muenster juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "mungopapu": {
+      "name": "mungopapu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sienet": {
+      "name": "sienet",
+      "legal": "Legal",
+      "description": ""
+    },
+    "sinapinsiemen": {
+      "name": "sinapinsiemen",
+      "legal": "Legal",
+      "description": ""
+    },
+    "luontaiset aromit": {
+      "name": "luontaiset aromit",
+      "legal": "Illegal",
+      "description": "Luonnolliset aromit voi viitata mihin tahansa."
+    },
+    "nektariini": {
+      "name": "nektariini",
+      "legal": "Legal",
+      "description": ""
+    },
+    "nokkonen": {
+      "name": "nokkonen",
+      "legal": "Illegal",
+      "description": "Nokkosteen haittavaikutukset voivat vaihdella vatsavaivoista polttavaan sensaatioon iholla, sekä virtsausvaikeuksiin ja turvotukseen."
+    },
+    "neufchâtel juusto": {
+      "name": "neufchâtel juusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Nonimehu": {
+      "name": "Nonimehu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Muskottipähkinä": {
+      "name": "Muskottipähkinä",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kaura": {
+      "name": "Kaura",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "okra": {
+      "name": "okra",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Oliiviöljy": {
+      "name": "Oliiviöljy",
+      "legal": "Legal",
+      "description": "Oliiviöljy kestää hyvin lämpöä, on hyvä paistamiseen ja muutenkin hyvin suositeltu."
+    },
+    "oliivi": {
+      "name": "oliivi",
+      "legal": "Legal",
+      "description": "Oliivit ovat laillisia, kunhan ne eivät sisällä laittomia ainesosia; Lue tuoteselosteet huolellisesti."
+    },
+    "sipuli": {
+      "name": "sipuli",
+      "legal": "Legal",
+      "description": "Käytä tuoretta sipulia. Sipulijauheissa on usein tärkkelystä lisättynä paakkuuntumisenestoaineena. Voit myös tehdä sipulijauhetta itse tuoreista sipuleista, kuivattamalla ja jauhamalla ne."
+    },
+    "appelsiinimehu": {
+      "name": "appelsiinimehu",
+      "legal": "Legal",
+      "description": "Tuore appelsiinimehu, jossa ei ole sokeria lisättynä on laillista. Jos sinulla on vielä ripulia vältä appelsiinimehua aamuisin. "
+    },
+    "appelsiini": {
+      "name": "appelsiini",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Oregano": {
+      "name": "Oregano",
+      "legal": "Legal",
+      "description": ""
+    },
+    "papaija": {
+      "name": "papaija",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Papadum": {
+      "name": "Papadum",
+      "legal": "Illegal",
+      "description": "Papadum on Intialainen herkku, joka on tehty linsseistä. Ne ovat sipsimäisiä, ja sisältävät usein riisijauhoa."
+    },
+    "Paprika": {
+      "name": "Paprika",
+      "legal": "Legal",
+      "description": "Vihreä, keltainen ja punainen paprika ovat sallittuja. Myös jalopeno, habanero ja chili."
+    },
+    "parmesan juusto": {
+      "name": "parmesan juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Persilja": {
+      "name": "Persilja",
+      "legal": "Legal",
+      "description": ""
+    },
+    "palsternakka": {
+      "name": "palsternakka",
+      "legal": "Illegal",
+      "description": "Yhdessä vaiheessa ne olivat sisällytettynä kirjaani, mutta sain palautetta IBD potilailta ja otin ne pois. Jotkut lapset sietävät niitä hyvin, ja jotkut eivät. Toisaalta ne ovat melko hyviä hiilihydraatti lähteitä ja Dr. Haas on sallinut ne. -Elaine"
+    },
+    "Passion hedelmä": {
+      "name": "Passion hedelmä",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Pasta": {
+      "name": "Pasta",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Pau 'Arco": {
+      "name": "Pau 'Arco",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "hernejauho": {
+      "name": "hernejauho",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "persikat": {
+      "name": "persikat",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Maapähkinävoi": {
+      "name": "Maapähkinävoi",
+      "legal": "Legal",
+      "description": "Luonnollinen maapähkinävoi ilman sokeria on sallittu."
+    },
+    "Maapähkinäöljy": {
+      "name": "Maapähkinäöljy",
+      "legal": "Legal",
+      "description": ""
+    },
+    "maapähkinät": {
+      "name": "maapähkinät",
+      "legal": "Legal",
+      "description": "Maapähkinöitä voi kokeilla varovaisesti kun on ollut SCD ruokavaliolla kuusi kuukautta, jos ripuli on lakannut. "
+    },
+    "päärynä": {
+      "name": "päärynä",
+      "legal": "Legal",
+      "description": ""
+    },
+    "herne": {
+      "name": "herne",
+      "legal": "Legal",
+      "description": "Kuivatut palkokasvit tulee valmistaa Breaking the Vicious Cycle kirjan ohjeiden mukaisesti."
+    },
+    "pekaanipähkinä": {
+      "name": "pekaanipähkinä",
+      "legal": "Legal",
+      "description": "Pähkinöitä tulisi käyttää vain pähkinäjauhoina eri resepetissä, kunnes ripuli on hellittänyt."
+    },
+    "pektiini": {
+      "name": "pektiini",
+      "legal": "Illegal",
+      "description": "Se on polysakkaridi joka hapon ja sokerin läsnäollessa hyytelöityy. Sitä käytetään suurusteena hilloissa ja sitä esiintyy luonnostaan joissain hedelmissä kuten omenoissa."
+    },
+    "piparminttutee": {
+      "name": "piparminttutee",
+      "legal": "Legal",
+      "description": "Jotkut merkit sisältävät luonnollisia aromeja, joten tarkista tuoteselosteet tarkasti. -Charlene"
+    },
+    "Peptizyde": {
+      "name": "Peptizyde",
+      "legal": "Legal",
+      "description": ""
+    },
+    "persimoni": {
+      "name": "persimoni",
+      "legal": "Legal",
+      "description": ""
+    },
+    "fosfatidyylikoliini": {
+      "name": "fosfatidyylikoliini",
+      "legal": "Legal",
+      "description": "Toinen nimi lesitiinillä, joka on laillista. Fosfatidyylikoliinia on runsaasti kananmunissa, mutta jos et syö kananmunia ehkä pieni määrä lisäravinteena on ok. - Elaine (vapaasti käännetty Englannista)"
+    },
+    "Suolakurkku (tilli)": {
+      "name": "Suolakurkku (tilli)",
+      "legal": "Illegal",
+      "description": "Tilli suolakurkut ovat laillisia, kunhan niissä ei ole laittomia ainesosia. Lue tuoteselosteet tarkasti! Katso Elaine Gottschallin suolakurkku resepti linkin takaa: http://www.scdiet.net/elainesrecipes.htm"
+    },
+    "pinjansiemen": {
+      "name": "pinjansiemen",
+      "legal": "Legal",
+      "description": "Ovat hyvin hankalia ruuansulatukselle ja edes niiden jauhaminen pestoksi ei tee niistä helpompia ruuansulatukselle. Voidaan kokeilla hyvin pienissä määrissä jahka oireet ovat hellittäneet."
+    },
+    "Ananas": {
+      "name": "Ananas",
+      "legal": "Legal",
+      "description": ""
+    },
+    "ananasmehu (sokeroimaton)": {
+      "name": "ananasmehu (sokeroimaton)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Pinto pavut": {
+      "name": "Pinto pavut",
+      "legal": "Illegal",
+      "description": "Sisältävät haitallisia tärkkelyksiä jopa liuottamisen jälkeen."
+    },
+    "pistaasipähkinä": {
+      "name": "pistaasipähkinä",
+      "legal": "Legal",
+      "description": "Laillisia. Voit ostaa suolaamattomia ja paahtamattomia pistaasipähkinöitä ja paahtaa ne itse. Ohjeita varten avaa linkki: http://www.breakingtheviciouscycle.info/knowledge_base/detail/pistachio-nuts/"
+    },
+    "Keittobanaani": {
+      "name": "Keittobanaani",
+      "legal": "Illegal",
+      "description": "Sisältävät liian paljon tärkkelystä."
+    },
+    "luumu": {
+      "name": "luumu",
+      "legal": "Legal",
+      "description": ""
+    },
+    "polysorbaatti 80": {
+      "name": "polysorbaatti 80",
+      "legal": "Illegal",
+      "description": "Katso Polysorbaatti 80"
+    },
+    "granaattiomena tiiviste": {
+      "name": "granaattiomena tiiviste",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sianliha": {
+      "name": "sianliha",
+      "legal": "Legal",
+      "description": "Tuore ja pakastettu on laillista, kunhan mitään ei ole lisätty prosessoinnin aikana. Tarkista tuoteseloste huolella."
+    },
+    "Kamara": {
+      "name": "Kamara",
+      "legal": "Legal",
+      "description": "Varmista että tuotteessa ei ole lisäaineita. Lue tuoteseloste huolella."
+    },
+    "Port du Salut juusto": {
+      "name": "Port du Salut juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "portviini": {
+      "name": "portviini",
+      "legal": "Illegal",
+      "description": "Se on täynnä sokeria"
+    },
+    "Postum kahvinkorvike": {
+      "name": "Postum kahvinkorvike",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kaliumsorbaattia": {
+      "name": "kaliumsorbaattia",
+      "legal": "Legal",
+      "description": "(Lisäravinteen ainesosa)"
+    },
+    "peruna": {
+      "name": "peruna",
+      "legal": "Illegal",
+      "description": "Sekä tavalliset perunat että bataatit ovat laittomia."
+    },
+    "Siipikarja": {
+      "name": "Siipikarja",
+      "legal": "Legal",
+      "description": "Tuore ja pakastettu siipikarja on laillista, kunhan mitään ei ole lisätty proessoinnin aikana. Tarkista etiketit huolellisesti."
+    },
+    "Primal Defence": {
+      "name": "Primal Defence",
+      "legal": "Illegal",
+      "description": "Katso Primal Defence"
+    },
+    "Primost juusto": {
+      "name": "Primost juusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sulatejuusto": {
+      "name": "sulatejuusto",
+      "legal": "Illegal",
+      "description": "Katso kirjasta Breaking the Vicious Cycle liite, joka sisältää täydellisen listan laittomista juustoista."
+    },
+    "Proteiinijauhe": {
+      "name": "Proteiinijauhe",
+      "legal": "Illegal",
+      "description": "Katso Proteiinijauhe"
+    },
+    "Provolone-juusto": {
+      "name": "Provolone-juusto",
+      "legal": "Legal",
+      "description": "Vaikka sitä ei ole listattu muiden juustojen joukossa sivulla 140 Breaking the Vicious Cycle kirjassa, provolone-juusto on laillista."
+    },
+    "kuivatut luumut": {
+      "name": "kuivatut luumut",
+      "legal": "Legal",
+      "description": ""
+    },
+    "psylliumin kuoret": {
+      "name": "psylliumin kuoret",
+      "legal": "Illegal",
+      "description": "Sisältävät runsaasti selluloosaa ja ligniiniä, joiden avulla tietyt bakteerit lisääntyvät runsaasti. Selluloosa vihanneksista ja hedelmistä on vielä siedettävää, mutta tiivistetyssä muodossa, kuten kuorina, se ei ole suositeltavaa."
+    },
+    "Kurpitsa": {
+      "name": "Kurpitsa",
+      "legal": "Legal",
+      "description": "Tuore kurpitsa on laillista, ja purkitettu kurpitsa on kielletty. Myskikurpitsaa voidaan käyttää kurpitsan korvikkeena leivonnassa.\n"
+    },
+    "Kurpitsa (säilyke)": {
+      "name": "Kurpitsa (säilyke)",
+      "legal": "Illegal",
+      "description": "Purkitettu kurpitsa on laitonta. Myskikurpitsaa voidaan käyttää kurpitsan sijasta leivonnassa."
+    },
+    "Kvinoa": {
+      "name": "Kvinoa",
+      "legal": "Illegal",
+      "description": "Koska Kvinoa on 60% tärkkelystä, se on erittäin laitonta."
+    },
+    "Quorn": {
+      "name": "Quorn",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "rusina": {
+      "name": "rusina",
+      "legal": "Legal",
+      "description": "Kokeile varovasti"
+    },
+    "Raparperi": {
+      "name": "Raparperi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Riisi": {
+      "name": "Riisi",
+      "legal": "Illegal",
+      "description": "Sekä ruskea että valkoinen riisi ovat laittomia."
+    },
+    "Riisilese": {
+      "name": "Riisilese",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Riisijauho": {
+      "name": "Riisijauho",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Ricotta juusto": {
+      "name": "Ricotta juusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Romano juusto": {
+      "name": "Romano juusto",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Roquefort": {
+      "name": "Roquefort",
+      "legal": "Legal",
+      "description": "Voidaan käyttää satunnaisesti."
+    },
+    "Rosmariini": {
+      "name": "Rosmariini",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Lanttu": {
+      "name": "Lanttu",
+      "legal": "Legal",
+      "description": "Toinen nimi on lanttu"
+    },
+    "ruis": {
+      "name": "ruis",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Tabasco": {
+      "name": "Tabasco",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "tagatoosi": {
+      "name": "tagatoosi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "tamari-soijakastike": {
+      "name": "tamari-soijakastike",
+      "legal": "Illegal",
+      "description": "Se on valmistettu soijasta."
+    },
+    "Tamarindi hedelmä": {
+      "name": "Tamarindi hedelmä",
+      "legal": "Illegal",
+      "description": "Katso, Tamarind"
+    },
+    "mandariinit": {
+      "name": "mandariinit",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Tapioka": {
+      "name": "Tapioka",
+      "legal": "Illegal",
+      "description": "Se on tärkkelys, siis laiton."
+    },
+    "tapiokajauho": {
+      "name": "tapiokajauho",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Taro": {
+      "name": "Taro",
+      "legal": "Illegal",
+      "description": "Sisältää aivan liikaa tärkkelystä ja muistuttaa paljon perunaa."
+    },
+    "Rakuuna": {
+      "name": "Rakuuna",
+      "legal": "Legal",
+      "description": ""
+    },
+    "tee": {
+      "name": "tee",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Timjami": {
+      "name": "Timjami",
+      "legal": "Legal",
+      "description": ""
+    },
+    "tofu": {
+      "name": "tofu",
+      "legal": "Illegal",
+      "description": "Se on valmistettu soijasta"
+    },
+    "Tofutti juusto": {
+      "name": "Tofutti juusto",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "tomaatti": {
+      "name": "tomaatti",
+      "legal": "Legal",
+      "description": "Tölkkitomaatit ovat laittomia."
+    },
+    "Tomaattimehu (säilyke)": {
+      "name": "Tomaattimehu (säilyke)",
+      "legal": "Legal",
+      "description": "Ainoa lisätty aineosa tulisi olla suola. Katso tomaattimehu - purkitettu: http://btvc.webfactional.com/knowledge-base/detail/tomato-juice-canned/"
+    },
+    "tomaatti pyree": {
+      "name": "tomaatti pyree",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Tomaattisose (säilyke, sokeroimaton)": {
+      "name": "Tomaattisose (säilyke, sokeroimaton)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Tomaattikastike (säilyke)": {
+      "name": "Tomaattikastike (säilyke)",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "ruisvehnä": {
+      "name": "ruisvehnä",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "täysruokosokeri": {
+      "name": "täysruokosokeri",
+      "legal": "Illegal",
+      "description": "Se on nestemäinen ruokosokeri, joten se on laitonta."
+    },
+    "nauris": {
+      "name": "nauris",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "V8 mehu": {
+      "name": "V8 mehu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "vanilja": {
+      "name": "vanilja",
+      "legal": "Legal",
+      "description": "Mutta ei tiivistetyssä muodossa. Katso Vanilliini http://btvc.webfactional.com/knowledge-base/detail/vanillin/"
+    },
+    "rasvahappojen suolat": {
+      "name": "rasvahappojen suolat",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Kasvikset (purkitettu)": {
+      "name": "Kasvikset (purkitettu)",
+      "legal": "Illegal",
+      "description": "Säilötyt vihannekset eivät ole sallittuja; niiden täytyy olla joka tuoreita tai pakastettuja."
+    },
+    "Etikka": {
+      "name": "Etikka",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Vodka": {
+      "name": "Vodka",
+      "legal": "Legal",
+      "description": "Vain silloin tällöin."
+    },
+    "sakariini": {
+      "name": "sakariini",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Safloriöljy": {
+      "name": "Safloriöljy",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Salvia": {
+      "name": "Salvia",
+      "legal": "Legal",
+      "description": ""
+    },
+    "saago": {
+      "name": "saago",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Sake": {
+      "name": "Sake",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Suola": {
+      "name": "Suola",
+      "legal": "Legal",
+      "description": ""
+    },
+    "sashimi": {
+      "name": "sashimi",
+      "legal": "Legal",
+      "description": "Raakaa kalaa valmistettuna japanilaiseen tyyliin. Tarjoillaan sellaisenaan, mutta ilman riisiä."
+    },
+    "hapankaali": {
+      "name": "hapankaali",
+      "legal": "Legal",
+      "description": "Vain kokeneille SCD ruokavalion harjoittajille."
+    },
+    "merilevä": {
+      "name": "merilevä",
+      "legal": "Illegal",
+      "description": "Levää sisältävät runsaasti polysakkarideja ja ovat siten laittomia."
+    },
+    "siemenvoit": {
+      "name": "siemenvoit",
+      "legal": "Illegal",
+      "description": "Siemenvoit http://btvc.webfactional.com/knowledge-base/detail/seed-butters/"
+    },
+    "siemenjauhot": {
+      "name": "siemenjauhot",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Siemenet": {
+      "name": "Siemenet",
+      "legal": "Legal",
+      "description": "Sallittu kolmen kuukauden oireettomuuden jälkeen."
+    },
+    "seesamiöljy": {
+      "name": "seesamiöljy",
+      "legal": "Legal",
+      "description": ""
+    },
+    "seesaminsiemen": {
+      "name": "seesaminsiemen",
+      "legal": "Illegal",
+      "description": "Seesaminsiemen http://btvc.webfactional.com/knowledge-base/detail/sesame-seeds/"
+    },
+    "annoona": {
+      "name": "annoona",
+      "legal": "Legal",
+      "description": "Tunnetaan myös nimellä kirimoija"
+    },
+    "äyriäiset": {
+      "name": "äyriäiset",
+      "legal": "Legal",
+      "description": "Tuoreet ja pakastetut ovat laillisia, kunhan mitään ei ole lisätty prosessoinnin aikana. Tarkista tuoteselosteet tarkasti."
+    },
+    "Sherry": {
+      "name": "Sherry",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Piidioksidi": {
+      "name": "Piidioksidi",
+      "legal": "Legal",
+      "description": "(Lisäravinteen ainesosa)"
+    },
+    "liukas jalava": {
+      "name": "liukas jalava",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Savustettu liha": {
+      "name": "Savustettu liha",
+      "legal": "Illegal",
+      "description": "Jos tiedät varmasti että sokeria ei ole lisätty savustusprosessin aikana, savustettu liha on laillista."
+    },
+    "Natriumbentsoaatti": {
+      "name": "Natriumbentsoaatti",
+      "legal": "Legal",
+      "description": "(Lisäravinteen ainesosa)"
+    },
+    "Natriumtärkkelysglykolaatti glysinaatti": {
+      "name": "Natriumtärkkelysglykolaatti glysinaatti",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sorbitoli": {
+      "name": "sorbitoli",
+      "legal": "Illegal",
+      "description": "Sorbitoli, mannitoli ja ksylitoli ovat kaikki sokerialkoholeja ja eivät ole SCD™ ruokavalion mukaan laillisia. Ne ovat sokereita joita ihmisen keho ei pysty käsittelemään. Usein niin sanotut sokerittomat tuotteet sisältävät näitä, ja nämä sokerit ruokkivat ruuansulatuksen bakteereja."
+    },
+    "hapankerma": {
+      "name": "hapankerma",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Soija": {
+      "name": "Soija",
+      "legal": "Illegal",
+      "description": "Katso soija"
+    },
+    "Soijalesitiini": {
+      "name": "Soijalesitiini",
+      "legal": "Legal",
+      "description": "Valmistettu laittomasta soijasta. Kananmunan lesitiinissä on paljon hyvää, ja Elaine ei näe syytä lisätä sitä ruokavalioon lisäravinteena. Lisäksi, katso Carlosons kalaöljy:  http://btvc.webfactional.com/knowledge-base/detail/carlsons-fish-oil/"
+    },
+    "Soijakastike": {
+      "name": "Soijakastike",
+      "legal": "Illegal",
+      "description": "Soijakastike on fermentoitu soija- tuote ja sisältää myös vehnää, joten se on laitonta."
+    },
+    "soijamaito": {
+      "name": "soijamaito",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "soijapapuöljy": {
+      "name": "soijapapuöljy",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "soijapapu": {
+      "name": "soijapapu",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "viherminttu tee": {
+      "name": "viherminttu tee",
+      "legal": "Legal",
+      "description": ""
+    },
+    "speltti": {
+      "name": "speltti",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Mausteet": {
+      "name": "Mausteet",
+      "legal": "Legal",
+      "description": "Kaikkia mausteita voidaan käyttää, mutta vältä maustesekoituksia. Osta mausteet erillään toisistaan."
+    },
+    "Pinaatti": {
+      "name": "Pinaatti",
+      "legal": "Legal",
+      "description": ""
+    },
+    "spirulina": {
+      "name": "spirulina",
+      "legal": "Illegal",
+      "description": "Emme käytä leviä (Spirulina) koska immuunijärjestelmä vaikuttaa IBD:hen, ja levät voivat ärsyttää jo häiriintynyttä immuunijärjestelmää."
+    },
+    "Splenda": {
+      "name": "Splenda",
+      "legal": "Illegal",
+      "description": "On useita syitä, miksi se on laitonta, katso Spenda: http://btvc.webfactional.com/knowledge-base/detail/splenda/"
+    },
+    "Idätetty jyvä leipä": {
+      "name": "Idätetty jyvä leipä",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kurpitsa": {
+      "name": "kurpitsa",
+      "legal": "Legal",
+      "description": "Sekä talvi- että kesäkurpitsat ovat laillisia."
+    },
+    "Stevia": {
+      "name": "Stevia",
+      "legal": "Illegal",
+      "description": "Sen molekyylirakenne muistuttaa steroidia ja sen vaikutukset ovat tuntemattomia. Katso, Stevia: http://www.breakingtheviciouscycle.info/knowledge_base/detail/stevia/"
+    },
+    "stilton juusto": {
+      "name": "stilton juusto",
+      "legal": "Legal",
+      "description": ""
+    },
+    "vihreä papu": {
+      "name": "vihreä papu",
+      "legal": "Legal",
+      "description": ""
+    },
+    "sukraloosi": {
+      "name": "sukraloosi",
+      "legal": "Illegal",
+      "description": "On useita syitä, miksi se on laitonta, katso Spenda: http://www.breakingtheviciouscycle.info/knowledge_base/detail/splenda/"
+    },
+    "sulfiitti": {
+      "name": "sulfiitti",
+      "legal": "Legal",
+      "description": ""
+    },
+    "Auringonkukka öljy": {
+      "name": "Auringonkukka öljy",
+      "legal": "Legal",
+      "description": ""
+    },
+    "bataatti": {
+      "name": "bataatti",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Sveitsinjuustot": {
+      "name": "Sveitsinjuustot",
+      "legal": "Legal",
+      "description": "Voidaan käyttää vapaasti."
+    },
+    "ksantaanikumi": {
+      "name": "ksantaanikumi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "ksylitoli": {
+      "name": "ksylitoli",
+      "legal": "Illegal",
+      "description": "Sorbitoli, mannitoli ja ksylitoli ovat kaikki sokerialkoholeja ja eivät ole SCD™ ruokavalion mukaan laillisia. Ne ovat sokereita joita ihmisen keho ei pysty käsittelemään. Usein niin sanotut sokerittomat tuotteet sisältävät näitä, ja nämä sokerit ruokkivat ruuansulatuksen bakteereja."
+    },
+    "jamssi": {
+      "name": "jamssi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Jogurtti (kaupan)": {
+      "name": "Jogurtti (kaupan)",
+      "legal": "Illegal",
+      "description": "Kaupasta ostettu jogurtti ei ole laillista. Kaupallista jogurttia voidaan käyttää juurena kotitekoisella jogurtille. Ohjeita varten avaa linkki: http://btvc.webfactional.com/knowledge-base/detail/yogurt-commercially-produced/"
+    },
+    "Jogurtti (kotitekoinen)": {
+      "name": "Jogurtti (kotitekoinen)",
+      "legal": "Legal",
+      "description": "Katso ohjeet nettisivuilta, miten tehdään laillista jogurttia: http://btvc.webfactional.com/knowledge-base/detail/yoghurt-how-to-make-with-yoghurtmaker/"
+    },
+    "Jukka juuri": {
+      "name": "Jukka juuri",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "sokeri": {
+      "name": "sokeri",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "ruokosokeri": {
+      "name": "ruokosokeri",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "siirappi": {
+      "name": "siirappi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "siideri": {
+      "name": "siideri",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kauramaito": {
+      "name": "kauramaito",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "mantelimaito (itse tehty)": {
+      "name": "mantelimaito (itse tehty)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "lonkero": {
+      "name": "lonkero",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "rommi": {
+      "name": "rommi",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "laktoositon maito": {
+      "name": "laktoositon maito",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "laktoosittomat maitotuotteet": {
+      "name": "laktoosittomat maitotuotteet",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "karkki": {
+      "name": "karkki",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "makeiset": {
+      "name": "makeiset",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kaakao": {
+      "name": "kaakao",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kaakaojauhe": {
+      "name": "kaakaojauhe",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "kaakaovoi": {
+      "name": "kaakaovoi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "kookosjauho": {
+      "name": "kookosjauho",
+      "legal": "Legal",
+      "description": ""
+    },
+    "tonnikala (säilyke)": {
+      "name": "tonnikala (säilyke)",
+      "legal": "Legal",
+      "description": ""
+    },
+    "maustesekoitukset": {
+      "name": "maustesekoitukset",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "Saksanpähkinäöljy": {
+      "name": "Saksanpähkinäöljy",
+      "legal": "Legal",
+      "description": "Ei kestä hyvin lämpöä"
+    },
+    "Saksanpähkinä": {
+      "name": "Saksanpähkinä",
+      "legal": "Legal",
+      "description": "Pähkinöitä tulisi käyttää vain jauhoina ruuanlaitossa, kunnes ripuli on hellittänyt."
+    },
+    "Wasabi": {
+      "name": "Wasabi",
+      "legal": "Legal",
+      "description": "Niin kauan kuin se on sen luonnollisessa tilassa, ja siihen ei ole lisätty lisäaineita valmistajan toimesta."
+    },
+    "vesikastanja": {
+      "name": "vesikastanja",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "vesikrassi": {
+      "name": "vesikrassi",
+      "legal": "Legal",
+      "description": ""
+    },
+    "vesimeloni": {
+      "name": "vesimeloni",
+      "legal": "Legal",
+      "description": ""
+    },
+    "vehnä": {
+      "name": "vehnä",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "vehnänalkio": {
+      "name": "vehnänalkio",
+      "legal": "Illegal",
+      "description": ""
+    },
+    "viski": {
+      "name": "viski",
+      "legal": "Legal",
+      "description": "Vain silloin tällöin."
+    },
+    "viini": {
+      "name": "viini",
+      "legal": "Legal",
+      "description": "Erittäin kuiva viini on laillista. Katso viini osio nettisivuilta lisätietoja varten viinistä."
+    }
+  }
+}

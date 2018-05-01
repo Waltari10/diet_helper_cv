@@ -6,6 +6,7 @@ import AngleUp from 'react-icons/lib/fa/angle-up'
 import Truncate from 'react-truncate'
 import reactStringReplace from 'react-string-replace'
 import _ from 'lodash'
+import { capitalizeFirstLetter } from '../../helpers'
 
 import localization from '../../Localization'
 
@@ -66,20 +67,10 @@ export default class FoodItem extends Component {
     })
   }
   renderDescription(food) {
-    let description
+    if (_.isEmpty(food.description)) return null
 
-    if (localization.getLanguage() === 'GB') {
-      description = food.description.toUpperCase()
-    } else {
-      description = food.lisätieto.toUpperCase()
-    }
-
-
-    if (_.isEmpty(description)) return null
-
-
-    description = reactStringReplace(description.toLowerCase(), /(https?:\/\/\S+)/g, (match, i) => (
-      <a target={"_blank"} key={match + i} href={match}>{match}</a>
+    const parsedDescription = reactStringReplace(food.description, /(https?:\/\/\S+)/g, (match, i) => (
+      <a target="_blank" key={match + i} href={match}>{match}</a>
     ))
 
     return (
@@ -87,23 +78,24 @@ export default class FoodItem extends Component {
         className="padding-right"
       >
         <div className="padding-hack" />
-        
+
         {
           // This is a hack to do two things:
           // 1. Have text with html tags truncated. Truncate package does not support html tags.
           // 2. Detecting when text is truncated with the Truncate package.
         }
         <Truncate
-          onTruncate={this.onTruncate}  
+          onTruncate={this.onTruncate}
           lines={this.state.isExpanded ? 999 : 1}
           className="item-description-hidden"
         >
-          {description}
+          {parsedDescription}
         </Truncate>
 
         <p
-          className={this.state.isExpanded ? "item-description-visible" : "item-description-visible-truncated"}
-        >{description}</p>
+          className={this.state.isExpanded ? 'item-description-visible' : 'item-description-visible-truncated'}
+        >{parsedDescription}
+        </p>
 
         <div className="padding-hack" />
         {this.state.isLong && this.renderItemArrow()}
@@ -116,10 +108,10 @@ export default class FoodItem extends Component {
     return (
       <div
         className="item-row"
-        key={food.food}
+        key={food.name}
       >
         <p className="item-name">
-          {localization.getLanguage() === 'GB' ? food.food : food.ruoka}
+          {capitalizeFirstLetter(food.name)}
         </p>
 
         {this.renderLegalIcon(food.legal.toLowerCase().trim() === 'legal')}
