@@ -67,9 +67,9 @@ export default class FoodItem extends Component {
     })
   }
   renderDescription(food) {
-    if (_.isEmpty(food.description)) return null
+    if (_.isEmpty(food.description.trim())) return null
 
-    const parsedDescription = reactStringReplace(food.description, /(https?:\/\/\S+)/g, (match, i) => (
+    const parsedDescription = reactStringReplace(food.description.trim(), /(https?:\/\/\S+)/g, (match, i) => (
       <a target="_blank" key={match + i} href={match}>{match}</a>
     ))
 
