@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import IllegalIcon from 'react-icons/lib/fa/times-circle'
 import LegalIcon from 'react-icons/lib/fa/check'
 import reactStringReplace from 'react-string-replace'
-import _ from 'lodash'
+import isEmpty from 'lodash/isEmpty'
 import { capitalizeFirstLetter } from '../../helpers'
 
 export default class FoodItem extends PureComponent {
@@ -19,7 +19,7 @@ export default class FoodItem extends PureComponent {
     )
   }
   renderDescription(food) {
-    if (_.isEmpty(food.description.trim())) return null
+    if (isEmpty(food.description.trim())) return null
 
     const parsedDescription = reactStringReplace(food.description.trim(), /(https?:\/\/\S+)/g, (match, i) => (
       <a target="_blank" key={match + i} href={match}>{match}</a>
