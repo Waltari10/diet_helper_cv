@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "browserify": "browserify -t [ babelify --presets [ react ] ] src/index.js -g browserify-css -o build/app.js",
+    "browserify": "browserify -t [ babelify --presets [ react ] ] src/index.js -g browserify-css -o | uglifyjs > build/app.js",
     "lint": "eslint --fix src/*",
     "init": "eslint init"
   },
@@ -40,6 +40,7 @@
     "browserify": "^16.2.0",
     "browserify-css": "^0.14.0",
     "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "uglify-js": "^3.3.23"
   }
 }
