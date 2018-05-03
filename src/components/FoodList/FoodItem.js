@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import IllegalIcon from 'react-icons/lib/fa/times-circle'
 import LegalIcon from 'react-icons/lib/fa/check'
 import AngleDown from 'react-icons/lib/fa/angle-down'
@@ -8,9 +8,7 @@ import reactStringReplace from 'react-string-replace'
 import _ from 'lodash'
 import { capitalizeFirstLetter } from '../../helpers'
 
-import localization from '../../Localization'
-
-export default class FoodItem extends Component {
+export default class FoodItem extends PureComponent {
   constructor(props) {
     super(props)
 
@@ -81,6 +79,7 @@ export default class FoodItem extends Component {
           // This is a hack to do two things:
           // 1. Have text with html tags truncated. Truncate package does not support html tags.
           // 2. Detecting when text is truncated with the Truncate package.
+          // This actually way slows down the app
         }
         <Truncate
           onTruncate={this.onTruncate}

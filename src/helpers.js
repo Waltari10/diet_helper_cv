@@ -1,3 +1,5 @@
+const levenshtein = require('fast-levenshtein')
+
 export function capitalizeFirstLetter(string) {
   if (!string) return ''
   return string.charAt(0).toUpperCase() + string.slice(1)
@@ -71,7 +73,7 @@ export function getEditDistance(s, t) {
 }
 
 export function getWordPercentageMatch(s, t) {
-  const dist = getEditDistance(s, t)
+  const dist = levenshtein.get(s, t)
 
   const longestWordLength = Math.max(
     s.length,

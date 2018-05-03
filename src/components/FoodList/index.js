@@ -33,27 +33,30 @@ export default class FoodList extends Component {
 
     const foodData = json[localization.getLanguage().toLowerCase()]
 
-    const foodsWithMatchPercentage = Object.keys(foodData).map((key) => {
-      const matchPercentage = getWordPercentageMatch(key.toLowerCase(), searchValue.toLowerCase())
+    const foods = Object.keys(foodData)
+    .map((key) => {
+      const matchPercentage = getWordPercentageMatch(key.toLowerCase(), searchValue)
 
-      return Object.assign({}, foodData[key], { matchPercentage })
+      if (matchPercentage > 10) {
+        return Object.assign({ matchPercentage }, foodData[key])
+      }
+
+      return null
     })
+    .filter(food => !!food)
+    .sort((a, b) => b.matchPercentage - a.matchPercentage)
 
-    const filteredFoods = foodsWithMatchPercentage.filter(food => food.matchPercentage > 10)
-
-    const sortedFoods = filteredFoods.sort((a, b) => b.matchPercentage - a.matchPercentage)
-
-    if (sortedFoods.length > 20) {
-      return sortedFoods.slice(0, 20)
+    if (foods.length > 20) {
+      return foods.slice(0, 20)
     }
 
-    return sortedFoods
+    return foods
   }
   onChange(event) {
     const searchValue = event.target.value.toLowerCase().trim()
 
-    const foods = this.getVisibleFoods(searchValue)
 
+    const foods = this.getVisibleFoods(searchValue)
     this.setState({
       foods,
       searchValue,

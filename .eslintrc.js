@@ -35,6 +35,7 @@ module.exports = {
     "class-methods-use-this": 0,
     "no-plusplus": 0,
     "react/sort-comp": 0,
-    "prefer-destructuring": 0
+    "prefer-destructuring": 0,
+    "react/jsx-filename-extension": 0
   }
 }
