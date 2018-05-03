@@ -1,30 +1,11 @@
 import React, { PureComponent } from 'react'
 import IllegalIcon from 'react-icons/lib/fa/times-circle'
 import LegalIcon from 'react-icons/lib/fa/check'
-import AngleDown from 'react-icons/lib/fa/angle-down'
-import AngleUp from 'react-icons/lib/fa/angle-up'
-import Truncate from 'react-truncate'
 import reactStringReplace from 'react-string-replace'
 import _ from 'lodash'
 import { capitalizeFirstLetter } from '../../helpers'
 
 export default class FoodItem extends PureComponent {
-  constructor(props) {
-    super(props)
-
-    this.expandItem = this.expandItem.bind(this)
-    this.onTruncate = this.onTruncate.bind(this)
-
-    this.state = {
-      isExpanded: false,
-      isLong: false,
-    }
-  }
-  expandItem() {
-    this.setState({
-      isExpanded: !this.state.isExpanded,
-    })
-  }
   renderLegalIcon(isLegal) {
     return (
       isLegal ? (<LegalIcon
@@ -37,33 +18,6 @@ export default class FoodItem extends PureComponent {
         />)
     )
   }
-  renderItemArrow() {
-    return (
-      this.state.isExpanded ?
-        <AngleUp
-          onClick={this.expandItem}
-          size={32}
-          className="item-arrow"
-        /> :
-        <AngleDown
-          onClick={this.expandItem}
-          size={32}
-          className="item-arrow"
-        />
-    )
-  }
-  onTruncate(isLong) {
-    // Call once
-    if (this.onTruncateCalled) {
-      return
-    }
-
-    this.onTruncateCalled = true
-
-    this.setState({
-      isLong,
-    })
-  }
   renderDescription(food) {
     if (_.isEmpty(food.description.trim())) return null
 
@@ -75,27 +29,10 @@ export default class FoodItem extends PureComponent {
       <div
         className="padding-right"
       >
-        {
-          // This is a hack to do two things:
-          // 1. Have text with html tags truncated. Truncate package does not support html tags.
-          // 2. Detecting when text is truncated with the Truncate package.
-          // This actually way slows down the app
-        }
-        <Truncate
-          onTruncate={this.onTruncate}
-          lines={this.state.isExpanded ? 999 : 1}
-          className="item-description-hidden"
-        >
-          {parsedDescription}
-        </Truncate>
-
         <p
-          className={this.state.isExpanded ? 'item-description-visible' : 'item-description-visible-truncated'}
+          className="item-description-visible"
         >{parsedDescription}
         </p>
-
-        <div className="padding-hack" />
-        {this.state.isLong && this.renderItemArrow()}
       </div>
     )
   }

@@ -14,7 +14,6 @@
     "react-localization": "^1.0.8",
     "react-scripts": "1.1.4",
     "react-string-replace": "^0.4.1",
-    "react-truncate": "^2.3.0",
     "react-world-flags": "0.0.3"
   },
   "scripts": {
@@ -41,7 +40,6 @@
     "browserify": "^16.2.0",
     "browserify-css": "^0.14.0",
     "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.7.0",
-    "react-addons-perf": "^15.4.2"
+    "eslint-plugin-react": "^7.7.0"
   }
 }

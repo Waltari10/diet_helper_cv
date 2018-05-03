@@ -36,6 +36,8 @@ input[type=text] {
 .item-description-visible {
   line-height: normal;
   font-size: 15px;
+  margin-top: 0px;
+  padding-bottom: 15px;
 }
 
 .item-description-visible-truncated {
