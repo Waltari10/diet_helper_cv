@@ -13,14 +13,14 @@
     "react-icons": "^2.2.7",
     "react-localization": "^1.0.8",
     "react-scripts": "1.1.4",
-    "react-string-replace": "^0.4.1",
-    "react-world-flags": "0.0.3"
+    "react-string-replace": "^0.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "browserify": "browserify -t [ babelify --presets [ react ] ] src/index.js -g browserify-css -o | uglifyjs > build/app.js",
+    "browserify": "browserify -t [ babelify --presets [ react ] ] build/static/js/main.f495b279.js -g browserify-css -o | uglifyjs > build/app.js",
     "lint": "eslint --fix src/*",
-    "init": "eslint init"
+    "init": "eslint init",
+    "build": "react-scripts build"
   },
   "browserify": {
     "transform": [

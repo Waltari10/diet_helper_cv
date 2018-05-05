@@ -3,8 +3,6 @@ How to release:
 - Move build/app.js to gh-pages branch.
 
 TODO:
-- Utilize proper uglify
-- Optimize app.js size and bunch of other things (takes 13 seconds on 3g to load)
 - Allow linking by users to specific search terms
 - Figure out which language to show initially to user
 - Remember which language user picked

@@ -9,10 +9,23 @@
 }
 
 .flag {
-  position: absolute;
-  font-size: 25px;
-  right: 10px;
-  top: 7.5px;
+  float: right;
+  margin-top: 4px;
+  height: 30px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.FI {
+  background: url('Finland.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.EN {
+  background: url('United-Kingdom.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .language-row p {
@@ -32,11 +45,14 @@
 
 .language-row {
   height: 30px;
-  position: relative;
+  clear: both;
 }
 
 .country-code {
+  float: left;
   padding-left: 10px;
+  line-height: 30px;
+  margin: 0;
 }
 
 .language-picker-drop-down {

@@ -14,7 +14,7 @@ const strings = new LocalizedStrings({
     careDisclaimer: 'Sivuston tarkoituksena ei ole hoitaa tai diagnosoida kenenkään sairautta. Jos koet olevasi sairas, käänny osaavan alan ammattilaisen puoleen.',
     emailUs: 'Ota yhteyttä',
   },
-  GB: {
+  EN: {
     search: 'Search...',
     SCD_diet: 'SCD Diet',
 

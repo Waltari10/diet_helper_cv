@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import AngleDown from 'react-icons/lib/fa/angle-down'
 import AngleUp from 'react-icons/lib/fa/angle-up'
-import Flag from 'react-world-flags'
 import './styles.css'
 
 export default class LanguagePicker extends Component {
@@ -34,22 +33,14 @@ export default class LanguagePicker extends Component {
           onClick={() => this.selectLanguage('FI')}
         >
           <p className="country-code">FI</p>
-          <Flag
-            height={15}
-            className="flag"
-            code="FI"
-          />
+          <div className="FI flag" />
         </div>
         <div
           className="language-row"
-          onClick={() => this.selectLanguage('GB')}
+          onClick={() => this.selectLanguage('EN')}
         >
-          <p className="country-code">GB</p>
-          <Flag
-            height={15}
-            className="flag"
-            code="GB"
-          />
+          <p className="country-code">EN</p>
+          <div className="EN flag" />
         </div>
       </div>
     )
@@ -72,11 +63,7 @@ export default class LanguagePicker extends Component {
             className="angle"
           />
         }
-        <Flag
-          height={15}
-          className="flag"
-          code={this.props.countryCode}
-        />
+        <div className={`${this.props.countryCode} flag`} />
       </div>
     )
   }
