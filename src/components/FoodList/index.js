@@ -15,9 +15,8 @@ export default class FoodList extends Component {
     this.renderFoodItem = this.renderFoodItem.bind(this)
 
     let searchValue = ''
-
-    if (window.location.pathname) {
-      searchValue = window.location.pathname.substring(1)
+    if (window.location.hash) {
+      searchValue = window.location.hash.substring(1)
     }
 
     this.state = {
