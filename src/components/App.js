@@ -13,8 +13,11 @@ export default class App extends Component {
   constructor(props) {
     super(props)
 
+
+    const countryCode = localStorage.countryCode || 'FI'
+    localization.setLanguage(countryCode)
     this.state = {
-      countryCode: 'FI',
+      countryCode,
     }
 
     this.setLanguage = this.setLanguage.bind(this)

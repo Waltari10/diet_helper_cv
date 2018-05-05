@@ -4,8 +4,7 @@ How to release:
 
 TODO:
 - Allow linking by users to specific search terms
-- Figure out which language to show initially to user
-- Remember which language user picked
+- Which language to show initially to user?
 - Make it easier to make changes to foods
 - Add google analytics
 - Add google search console

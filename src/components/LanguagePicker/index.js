@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { PureComponent  } from 'react'
 import AngleDown from 'react-icons/lib/fa/angle-down'
 import AngleUp from 'react-icons/lib/fa/angle-up'
 import './styles.css'
 
-export default class LanguagePicker extends Component {
+export default class LanguagePicker extends PureComponent {
   constructor(props) {
     super(props)
 
@@ -24,6 +24,7 @@ export default class LanguagePicker extends Component {
     this.setState({
       isOpen: false,
     })
+    localStorage.setItem('countryCode', countryCode)
   }
   renderDropDown() {
     return (

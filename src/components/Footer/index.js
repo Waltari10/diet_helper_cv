@@ -8,7 +8,7 @@ class Footer extends Component {
       <div className="footer-root">
         <div className="footer-background">
           <div className="footer-content-wrapper">
-            <p className="footer-text">{localization.betaDisclaimer}<a target="_blank" href="breakingtheviciouscycle.info">breakingtheviciouscycle</a></p>
+            <p className="footer-text">{localization.betaDisclaimer}<a target="_blank" href="breakingtheviciouscycle.info">breakingtheviciouscycle.info</a></p>
             <div className="footer-links-left">
               <p><a rel="noopener noreferrer" target="_blank" href="http://breakingtheviciouscycle.info/" className="footer-link">{localization.SCD_en_website}</a></p>
               <p><a rel="noopener noreferrer" target="_blank" href="https://www.scd-fi.info/" className="footer-link">{localization.SCD_fi_website}</a></p>
