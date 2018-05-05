@@ -14,9 +14,16 @@ export default class FoodList extends Component {
     this.onChange = this.onChange.bind(this)
     this.renderFoodItem = this.renderFoodItem.bind(this)
 
+    let searchValue = ''
+
+    if (window.location.pathname) {
+      searchValue = window.location.pathname.substring(1)
+    }
+
     this.state = {
-      foods: [],
+      foods: this.getVisibleFoods(searchValue),
       locale: localization.getLanguage(),
+      searchValue,
     }
   }
   // TODO this is risky...
@@ -75,6 +82,7 @@ export default class FoodList extends Component {
         className="search-bar"
         type="text"
         placeholder={localization.search}
+        value={this.state.searchValue}
       />
     )
   }
