@@ -17,9 +17,8 @@
   font-size: 60px;
   color: white;
   margin-top: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  line-height: 200px;
+  z-index: 0;
   width: 100%;
   text-align: center;
 }
