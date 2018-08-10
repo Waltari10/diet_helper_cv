@@ -1,4 +1,4 @@
-import React, { PureComponent  } from 'react'
+import React, { PureComponent } from 'react'
 import AngleDown from 'react-icons/lib/fa/angle-down'
 import AngleUp from 'react-icons/lib/fa/angle-up'
 import './styles.css'
