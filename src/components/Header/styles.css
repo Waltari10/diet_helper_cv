@@ -13,12 +13,14 @@
 }
 
 .site-title {
+  z-index: 0;
   text-align: center;
   font-size: 60px;
   color: white;
   margin-top: 0;
-  line-height: 200px;
-  z-index: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 100%;
   text-align: center;
 }
