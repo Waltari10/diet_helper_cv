@@ -13,7 +13,7 @@ const strings = new LocalizedStrings({
     betaDisclaimer: 'HUOM! Sivusto on keskeneräinen ja saattaa sisältää asiavirheitä. Tarkista aina tältä sivustolta saatu tieto SCD-ruokavalion virallisilta kotisivuilta: ',
     careDisclaimer: 'Sivuston tarkoituksena ei ole hoitaa tai diagnosoida kenenkään sairautta. Jos koet olevasi sairas, käänny osaavan alan ammattilaisen puoleen.',
     emailUs: 'Ota yhteyttä',
-    modal_txt: `Tämä sivusto on tarkoitettu tukemaan SCD ruokavalion noudattamista. Parhaiden tulosten saamiseksi kannattaa lukea Elaine Gottschallin kirjoittaman Breaking The Vicious Cycle kirja. Sivuston sisältämä tieto ei yksin riitä ruokavalion noudattamiseen.
+    modal_txt: `Tämä sivusto on tarkoitettu tukemaan SCD ruokavalion noudattamista. Parhaiden tulosten saamiseksi kannattaa lukea Elaine Gottschallin kirjoittama Breaking The Vicious Cycle kirja. Sivuston sisältämä tieto ei yksin riitä ruokavalion noudattamiseen.
 
 Sivuston tarkoitus ei ole korvata lääkehoitoa eikä terveydenhuollon ammattilaisia, eikä diagnosoida tai hoitaa kenenkään sairautta. Jos koet olevasi sairas, mene lääkäriin.
     

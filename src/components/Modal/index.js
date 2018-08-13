@@ -8,7 +8,7 @@ export default class Modal extends PureComponent {
       <div className="background">
         <div className="modal">
           <h1 className="modal-header">{localization.modal_header}</h1>
-          <pre>{localization.modal_txt}</pre>
+          <pre className="modal-txt">{localization.modal_txt}</pre>
           <button
             className="modal-button"
             onClick={this.props.dismissModal}
