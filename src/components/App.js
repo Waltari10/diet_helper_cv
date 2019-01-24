@@ -13,8 +13,19 @@ import localization from '../Localization'
 export default class App extends Component {
   constructor(props) {
     super(props)
-    const countryCode = localStorage.countryCode || 'FI'
-    localization.setLanguage(countryCode)
+
+    const userLang = navigator.language || navigator.userLanguage
+    let parsedUserLang = ''
+
+
+    if (userLang.indexOf('fi') !== -1) {
+      parsedUserLang = 'FI'
+    } else {
+      parsedUserLang = 'EN'
+    }
+
+    const countryCode = localStorage.countryCode || parsedUserLang
+    localization.setLanguage(countryCode) // Takes EN and FI
     const showModal = !localStorage.termsAccepted
 
     this.state = {
