@@ -29,38 +29,42 @@ export default class LanguagePicker extends PureComponent {
   renderDropDown() {
     return (
       <div className="language-picker-drop-down">
-        <div
-          className="language-row"
-          onClick={() => this.selectLanguage('FI')}
-        >
-          <p className="country-code">FI</p>
-          <div className="FI flag" />
-        </div>
-        <div
+
+        { this.props.countryCode !== 'FI' ?
+          <div
+            className="language-row"
+            onClick={() => this.selectLanguage('FI')}
+          >
+            <p className="country-code">FI</p>
+            <div className="FI flag" />
+          </div> : null}
+
+        { this.props.countryCode !== 'EN' ? <div
           className="language-row"
           onClick={() => this.selectLanguage('EN')}
         >
           <p className="country-code">EN</p>
           <div className="EN flag" />
-        </div>
+        </div> : null }
+
       </div>
     )
   }
   render() {
     return (
-      <div className="language-picker">
+      <div className={this.state.isOpen ? 'language-picker-open' : 'language-picker'}>
         {this.state.isOpen && this.renderDropDown()}
         {this.state.isOpen ?
           <AngleUp
             onClick={
               this.onClick
             }
-            size={20}
+            size={30}
             className="angle"
           /> :
           <AngleDown
             onClick={this.onClick}
-            size={20}
+            size={30}
             className="angle"
           />
         }
