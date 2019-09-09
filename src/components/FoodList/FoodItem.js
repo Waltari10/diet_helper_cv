@@ -49,7 +49,7 @@ export default class FoodItem extends PureComponent {
         </p>
 
         {this.renderLegalIcon(food.legal.toLowerCase().trim() === 'legal')}
-        {this.renderDescription(food)}
+        {/* {this.renderDescription(food)} */}
 
       </div>
     )
