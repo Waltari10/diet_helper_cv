@@ -1,3 +1,9 @@
+## How to run locally
+1. Install Nodejs locally
+2. Clone
+3. Run "npm ci" in root folder
+4. Run "npm start"
+
 How to release:
 - npm run build
 - Replace js and styles file in gh-pages branch.
